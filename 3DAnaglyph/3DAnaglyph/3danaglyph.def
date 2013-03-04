@@ -1,0 +1,4 @@
+LIBRARY	"3danaglyph"
+EXPORTS
+Make3DAnaglyph @1
+Make3DAnaglyphPair @2

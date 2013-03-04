@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Free3DPhotoMaker", "Free3DPhotoMaker\Free3DPhotoMaker.csproj", "{D914D1AE-E079-47D2-BC82-4AC01D41C9D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.AppFx", "Common\AppFx\DVDVideoSoft.AppFx.csproj", "{6B1EAECD-1403-43B8-B289-00348AE650DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.AppFxApi", "Common\AppFxApi\DVDVideoSoft.AppFxApi.csproj", "{8AAF680B-BC95-4BB1-94C6-DDF13A5CEFE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.Controls", "Common\Controls\DVDVideoSoft.Controls.csproj", "{D9EF81B5-170E-4102-A0A3-AAA1F210E497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.DialogForms", "Common\DialogForms\DVDVideoSoft.DialogForms.csproj", "{0280BFBB-47C5-4744-8C48-03B2BEDE07D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.ImageUtils", "Common\ImageUtils\DVDVideoSoft.ImageUtils.csproj", "{375749DA-6200-4AC9-B679-69D159B8CFD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.LoggerBridge", "Common\LoggerBridge\LoggerBridge\DVDVideoSoft.LoggerBridge.csproj", "{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.Resources", "Common\Resources\DVDVideoSoft.Resources.csproj", "{5ED4CBCB-D783-4044-9656-405DADF90D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.Utils", "Common\Utils\DVDVideoSoft.Utils.csproj", "{7D8A210A-5622-4260-943A-1FC240D3F959}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		QtDebug|x86 = QtDebug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D914D1AE-E079-47D2-BC82-4AC01D41C9D2}.Debug|x86.ActiveCfg = Debug|x86
+		{D914D1AE-E079-47D2-BC82-4AC01D41C9D2}.Debug|x86.Build.0 = Debug|x86
+		{D914D1AE-E079-47D2-BC82-4AC01D41C9D2}.QtDebug|x86.ActiveCfg = Debug|x86
+		{D914D1AE-E079-47D2-BC82-4AC01D41C9D2}.QtDebug|x86.Build.0 = Debug|x86
+		{D914D1AE-E079-47D2-BC82-4AC01D41C9D2}.Release|x86.ActiveCfg = Release|x86
+		{D914D1AE-E079-47D2-BC82-4AC01D41C9D2}.Release|x86.Build.0 = Release|x86
+		{6B1EAECD-1403-43B8-B289-00348AE650DF}.Debug|x86.ActiveCfg = Debug|x86
+		{6B1EAECD-1403-43B8-B289-00348AE650DF}.Debug|x86.Build.0 = Debug|x86
+		{6B1EAECD-1403-43B8-B289-00348AE650DF}.QtDebug|x86.ActiveCfg = Debug|x86
+		{6B1EAECD-1403-43B8-B289-00348AE650DF}.QtDebug|x86.Build.0 = Debug|x86
+		{6B1EAECD-1403-43B8-B289-00348AE650DF}.Release|x86.ActiveCfg = Release|x86
+		{6B1EAECD-1403-43B8-B289-00348AE650DF}.Release|x86.Build.0 = Release|x86
+		{8AAF680B-BC95-4BB1-94C6-DDF13A5CEFE3}.Debug|x86.ActiveCfg = Debug|x86
+		{8AAF680B-BC95-4BB1-94C6-DDF13A5CEFE3}.Debug|x86.Build.0 = Debug|x86
+		{8AAF680B-BC95-4BB1-94C6-DDF13A5CEFE3}.QtDebug|x86.ActiveCfg = Debug|x86
+		{8AAF680B-BC95-4BB1-94C6-DDF13A5CEFE3}.QtDebug|x86.Build.0 = Debug|x86
+		{8AAF680B-BC95-4BB1-94C6-DDF13A5CEFE3}.Release|x86.ActiveCfg = Release|x86
+		{8AAF680B-BC95-4BB1-94C6-DDF13A5CEFE3}.Release|x86.Build.0 = Release|x86
+		{D9EF81B5-170E-4102-A0A3-AAA1F210E497}.Debug|x86.ActiveCfg = Debug|x86
+		{D9EF81B5-170E-4102-A0A3-AAA1F210E497}.Debug|x86.Build.0 = Debug|x86
+		{D9EF81B5-170E-4102-A0A3-AAA1F210E497}.QtDebug|x86.ActiveCfg = Debug|x86
+		{D9EF81B5-170E-4102-A0A3-AAA1F210E497}.QtDebug|x86.Build.0 = Debug|x86
+		{D9EF81B5-170E-4102-A0A3-AAA1F210E497}.Release|x86.ActiveCfg = Release|x86
+		{D9EF81B5-170E-4102-A0A3-AAA1F210E497}.Release|x86.Build.0 = Release|x86
+		{0280BFBB-47C5-4744-8C48-03B2BEDE07D4}.Debug|x86.ActiveCfg = Debug|x86
+		{0280BFBB-47C5-4744-8C48-03B2BEDE07D4}.Debug|x86.Build.0 = Debug|x86
+		{0280BFBB-47C5-4744-8C48-03B2BEDE07D4}.QtDebug|x86.ActiveCfg = Debug|x86
+		{0280BFBB-47C5-4744-8C48-03B2BEDE07D4}.QtDebug|x86.Build.0 = Debug|x86
+		{0280BFBB-47C5-4744-8C48-03B2BEDE07D4}.Release|x86.ActiveCfg = Release|x86
+		{0280BFBB-47C5-4744-8C48-03B2BEDE07D4}.Release|x86.Build.0 = Release|x86
+		{375749DA-6200-4AC9-B679-69D159B8CFD1}.Debug|x86.ActiveCfg = Debug|x86
+		{375749DA-6200-4AC9-B679-69D159B8CFD1}.Debug|x86.Build.0 = Debug|x86
+		{375749DA-6200-4AC9-B679-69D159B8CFD1}.QtDebug|x86.ActiveCfg = Debug|x86
+		{375749DA-6200-4AC9-B679-69D159B8CFD1}.QtDebug|x86.Build.0 = Debug|x86
+		{375749DA-6200-4AC9-B679-69D159B8CFD1}.Release|x86.ActiveCfg = Release|x86
+		{375749DA-6200-4AC9-B679-69D159B8CFD1}.Release|x86.Build.0 = Release|x86
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.Debug|x86.ActiveCfg = Debug|x86
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.Debug|x86.Build.0 = Debug|x86
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.QtDebug|x86.ActiveCfg = Debug|x86
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.QtDebug|x86.Build.0 = Debug|x86
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.Release|x86.ActiveCfg = Release|x86
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.Release|x86.Build.0 = Release|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.Debug|x86.ActiveCfg = Debug|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.Debug|x86.Build.0 = Debug|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.QtDebug|x86.ActiveCfg = Debug|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.QtDebug|x86.Build.0 = Debug|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.Release|x86.ActiveCfg = Release|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.Release|x86.Build.0 = Release|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.Debug|x86.ActiveCfg = Debug|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.Debug|x86.Build.0 = Debug|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.QtDebug|x86.ActiveCfg = Debug|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.QtDebug|x86.Build.0 = Debug|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.Release|x86.ActiveCfg = Release|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

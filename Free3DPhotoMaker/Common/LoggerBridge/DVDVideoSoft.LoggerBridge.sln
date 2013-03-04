@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.LoggerBridge", "LoggerBridge\DVDVideoSoft.LoggerBridge.csproj", "{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D8A210A-5622-4260-943A-1FC240D3F959} = {7D8A210A-5622-4260-943A-1FC240D3F959}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.Utils", "..\..\Common\Utils\DVDVideoSoft.Utils.csproj", "{7D8A210A-5622-4260-943A-1FC240D3F959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.Resources", "..\..\Common\Resources\DVDVideoSoft.Resources.csproj", "{5ED4CBCB-D783-4044-9656-405DADF90D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerBridgeTester", "LoggerBridgeTester\LoggerBridgeTester.csproj", "{CD57D687-F391-46D9-AD42-9D856291F726}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A} = {AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.Debug|x86.ActiveCfg = Debug|x86
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.Debug|x86.Build.0 = Debug|x86
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.Release|x86.ActiveCfg = Release|x86
+		{AF2138D3-0AFE-4E94-A7DB-D95AE6213F8A}.Release|x86.Build.0 = Release|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.Debug|x86.ActiveCfg = Debug|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.Debug|x86.Build.0 = Debug|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.Release|x86.ActiveCfg = Release|x86
+		{7D8A210A-5622-4260-943A-1FC240D3F959}.Release|x86.Build.0 = Release|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.Debug|x86.ActiveCfg = Debug|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.Debug|x86.Build.0 = Debug|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.Release|x86.ActiveCfg = Release|x86
+		{5ED4CBCB-D783-4044-9656-405DADF90D82}.Release|x86.Build.0 = Release|x86
+		{CD57D687-F391-46D9-AD42-9D856291F726}.Debug|x86.ActiveCfg = Debug|x86
+		{CD57D687-F391-46D9-AD42-9D856291F726}.Debug|x86.Build.0 = Debug|x86
+		{CD57D687-F391-46D9-AD42-9D856291F726}.Release|x86.ActiveCfg = Release|x86
+		{CD57D687-F391-46D9-AD42-9D856291F726}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

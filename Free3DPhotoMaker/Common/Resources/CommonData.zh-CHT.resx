@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HD_Video" xml:space="preserve">
+    <value>高解像度動画</value>
+  </data>
+  <data name="HQ_Video" xml:space="preserve">
+    <value>高品質影片</value>
+  </data>
+  <data name="Mono" xml:space="preserve">
+    <value>單聲道</value>
+  </data>
+  <data name="NotURLToDownloadVideoFrom" xml:space="preserve">
+    <value>沒有可以下載影片的網址！</value>
+  </data>
+  <data name="NQ_Video" xml:space="preserve">
+    <value>一般品質影片</value>
+  </data>
+  <data name="Stereo" xml:space="preserve">
+    <value>立體聲</value>
+  </data>
+  <data name="VideoDownloading" xml:space="preserve">
+    <value>影片下載中...</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="OutputFolder" xml:space="preserve">
+    <value>輸出資料夾...</value>
+  </data>
+  <data name="ProcessComplete" xml:space="preserve">
+    <value>程序完成</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>沒有連接。請檢查網路連線。</value>
+  </data>
+  <data name="ProcessStopped" xml:space="preserve">
+    <value>程序已停止。</value>
+  </data>
+  <data name="DownloadingCompleted" xml:space="preserve">
+    <value>下載完成</value>
+  </data>
+  <data name="DownloadingCompleteSuccesful" xml:space="preserve">
+    <value>下載成功完成。</value>
+  </data>
+  <data name="SomeLinksNotDownloaded" xml:space="preserve">
+    <value>程式沒有下載某些連結</value>
+  </data>
+  <data name="WantSolution" xml:space="preserve">
+    <value>是否要尋求解決方案？</value>
+  </data>
+  <data name="CancelProcess" xml:space="preserve">
+    <value>正在取消程序...</value>
+  </data>
+  <data name="CannotReadFile" xml:space="preserve">
+    <value>無法讀取文件。這不是一個有效的檔案，或目前不支援此格式。</value>
+  </data>
+  <data name="ConversionError" xml:space="preserve">
+    <value>轉換錯誤。</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="FileFormatNotSupported" xml:space="preserve">
+    <value>不支援該檔案格式</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>資訊</value>
+  </data>
+  <data name="LinkNotContainVideo" xml:space="preserve">
+    <value>連結並不包含影片</value>
+  </data>
+  <data name="NotYouTubeLink" xml:space="preserve">
+    <value>這不是YouTube影片連結。</value>
+  </data>
+  <data name="NoVideoData" xml:space="preserve">
+    <value>沒有影片資料</value>
+  </data>
+  <data name="ReinstallProgramm" xml:space="preserve">
+    <value>請重新安裝程式。</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="PleaseEnterTag" xml:space="preserve">
+    <value>請至少為你的影片輸入一個標籤。</value>
+  </data>
+  <data name="FileIsFailed" xml:space="preserve">
+    <value>檔案發生錯誤。</value>
+  </data>
+  <data name="FileUploading" xml:space="preserve">
+    <value>檔案上傳中...</value>
+  </data>
+  <data name="InvalidLoginPassword" xml:space="preserve">
+    <value>不正確的登入密碼</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>程序成功完成。</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>請選擇一個檔案。</value>
+  </data>
+  <data name="WrongTag" xml:space="preserve">
+    <value>每個標籤都至少需要兩個字母/數字。</value>
+  </data>
+  <data name="ConversionCompleteSuccessful" xml:space="preserve">
+    <value>轉換成功完成。</value>
+  </data>
+  <data name="OutputFileAlreadyExists" xml:space="preserve">
+    <value>输出文件已存在。是否替换？</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="OutputFolderNotExist" xml:space="preserve">
+    <value>输出文件夹不存在。</value>
+  </data>
+  <data name="OutputPathEmpty" xml:space="preserve">
+    <value>输出路径为空。</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="VideoAlreadyInList" xml:space="preserve">
+    <value>影片已在下載清單中。</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>影片</value>
+  </data>
+  <data name="CannotAccessYouTube" xml:space="preserve">
+    <value>程式無法登入YouTube。</value>
+  </data>
+  <data name="CannotResolveYouTubeLink" xml:space="preserve">
+    <value>程式未能解析這一YouTube連結。是否要尋找解決方案？</value>
+  </data>
+  <data name="ListNotLoaded" xml:space="preserve">
+    <value>列表未加载。</value>
+  </data>
+  <data name="FilesNotOpened" xml:space="preserve">
+    <value>一些檔案未開啟。</value>
+  </data>
+  <data name="ListNotSaved" xml:space="preserve">
+    <value>清單未儲存。</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>是否繼續？</value>
+  </data>
+  <data name="BadCharacters" xml:space="preserve">
+    <value>檔案名稱不能包含以下字元：</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>新資料夾</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>重新命名</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>可用，</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>是必需的。</value>
+  </data>
+  <data name="ThereIsNewVersion" xml:space="preserve">
+    <value>有一個新的版本。你要下載並安裝它？</value>
+  </data>
+  <data name="VersionIsUpToDate" xml:space="preserve">
+    <value>您的版本是最新版本。</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>登入被拒絕。</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>正在處理中</value>
+  </data>
+  <data name="ProcessingFile" xml:space="preserve">
+    <value>檔案轉換中...</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>影片</value>
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>請確認防火牆，代理伺服器和網路連線設定。</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="FileTooLarge" xml:space="preserve">
+    <value>檔案太大。</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>上傳中...</value>
+  </data>
+  <data name="UploadFailed" xml:space="preserve">
+    <value>上傳錯誤</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>目前：</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>總共：</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_InclSub" xml:space="preserve">
+    <value>包含子資料夾</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_Title" xml:space="preserve">
+    <value>瀏覽檔案和資料夾</value>
+  </data>
+  <data name="BrowseForFilesAndFolder_MainLabel" xml:space="preserve">
+    <value>檔案和資料夾：</value>
+  </data>
+  <data name="TagLengthCannotBe" xml:space="preserve">
+    <value>標籤長度不能多於30字元。</value>
+  </data>
+  <data name="ATagCannotContain" xml:space="preserve">
+    <value>標籤名稱不能包含逗號</value>
+  </data>
+  <data name="TagCreationHints" xml:space="preserve">
+    <value>建立標籤的提示：</value>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>私有</value>
+  </data>
+  <data name="Public" xml:space="preserve">
+    <value>與全世界分享您的影片</value>
+  </data>
+  <data name="OpenDlgImageFilter" xml:space="preserve">
+    <value>影像檔</value>
+  </data>
+  <data name="Economy" xml:space="preserve">
+    <value>經濟品質</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>高品質</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>標準品質</value>
+  </data>
+  <data name="ConversionProgress" xml:space="preserve">
+    <value>轉換進度</value>
+  </data>
+  <data name="ConversionFailed" xml:space="preserve">
+    <value>轉換失敗</value>
+  </data>
+  <data name="SomeFilesWereNotProcessed" xml:space="preserve">
+    <value>有些檔案沒有處理</value>
+  </data>
+  <data name="DontAskAgain_EnableInOptions" xml:space="preserve">
+    <value>不再詢問。（能在選項中開啟）</value>
+  </data>
+  <data name="VideoMaybePartOfPlaylist" xml:space="preserve">
+    <value>這個影片可能是播放清單的一部分。是否嘗試下載整個播放清單？</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="URLNotContainYTVideos" xml:space="preserve">
+    <value>網址並未包含Youtube影片。</value>
+  </data>
+  <data name="SomeCodecsAreMissingTheyWillBeDownloaded" xml:space="preserve">
+    <value>聲音及影片編碼遺失。下載並安裝播放器。繼續？</value>
+  </data>
+  <data name="CodecsDownload" xml:space="preserve">
+    <value>編碼器下載</value>
+  </data>
+  <data name="Formats" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="ShowAnHTMLExampleFileAfterConversion" xml:space="preserve">
+    <value>轉換完成後顯示一個 HTML樣本檔案</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>播放器...</value>
+  </data>
+  <data name="UnableCreateOnCD" xml:space="preserve">
+    <value>無法在 CD/DVD 光碟上建立檔案。</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>聲音</value>
+  </data>
+  <data name="PleaseInstallTheLatest" xml:space="preserve">
+    <value>請直接從我們的網站下載最新版本：</value>
+  </data>
+  <data name="RequiredModuleMissing" xml:space="preserve">
+    <value>程式不能繼續運作：需要的模組遺失</value>
+  </data>
+  <data name="DragAndDropFilesHere" xml:space="preserve">
+    <value>把文件拖放到这儿</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>選項</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>已是最新</value>
+  </data>
+  <data name="PlayerColor" xml:space="preserve">
+    <value>播放器顏色：</value>
+  </data>
+  <data name="PlayerImageLabel" xml:space="preserve">
+    <value>播放器：</value>
+  </data>
+  <data name="PlayerType" xml:space="preserve">
+    <value>播放器類型：</value>
+  </data>
+  <data name="FlashPlayer" xml:space="preserve">
+    <value>Flash播放器</value>
+  </data>
+  <data name="DownloadingInProgress" xml:space="preserve">
+    <value>下載進行中，請稍候...</value>
+  </data>
+  <data name="DownloadFailed" xml:space="preserve">
+    <value>下載失敗</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>瞭解更多</value>
+  </data>
+  <data name="Preset" xml:space="preserve">
+    <value>預設值</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="PlayStop" xml:space="preserve">
+    <value>播放/停止</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="PleaseAddAudioFiles" xml:space="preserve">
+    <value>請增加聲音檔案</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>現在購買</value>
+  </data>
+  <data name="FailedToConnectToTheInternet" xml:space="preserve">
+    <value>無法連接到網路</value>
+  </data>
+  <data name="FailedToSaveLicenseFile" xml:space="preserve">
+    <value>無法儲存許可檔案</value>
+  </data>
+  <data name="LicenseFileCorrupted" xml:space="preserve">
+    <value>許可檔案損壞</value>
+  </data>
+  <data name="InvalidSubscriptionKey" xml:space="preserve">
+    <value>錯誤的訂閱金鑰，請再試一次</value>
+  </data>
+  <data name="LicenseFileNotFound" xml:space="preserve">
+    <value>未找到許可檔案</value>
+  </data>
+  <data name="LicenseHasExpired" xml:space="preserve">
+    <value>許可已經過期</value>
+  </data>
+  <data name="ReadHttpResponseFailed" xml:space="preserve">
+    <value>無法從註冊伺服器得到回應</value>
+  </data>
+  <data name="RegistrationFailed" xml:space="preserve">
+    <value>註冊失敗</value>
+  </data>
+  <data name="RegistrationIsComplete" xml:space="preserve">
+    <value>註冊完成</value>
+  </data>
+  <data name="ThankYouForRegistering" xml:space="preserve">
+    <value>謝謝您的註冊</value>
+  </data>
+  <data name="ThisMachineIsNotRegistered" xml:space="preserve">
+    <value>這台機器沒有註冊此訂閱</value>
+  </data>
+  <data name="AnErrorOccured" xml:space="preserve">
+    <value>出現錯誤</value>
+  </data>
+  <data name="Completed_U" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>品質</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>檢查中...</value>
+  </data>
+  <data name="ReadyForDownload" xml:space="preserve">
+    <value>準備下載</value>
+  </data>
+  <data name="Enqueued" xml:space="preserve">
+    <value>等候中</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>暫停</value>
+  </data>
+  <data name="Playlist" xml:space="preserve">
+    <value>播放清單</value>
+  </data>
+  <data name="Converted" xml:space="preserve">
+    <value>轉換</value>
+  </data>
+  <data name="ConnectionError" xml:space="preserve">
+    <value>連結錯誤</value>
+  </data>
+  <data name="UnsupportedFileFormat" xml:space="preserve">
+    <value>不支援的檔案格式 </value>
+  </data>
+  <data name="VideoFileSizeExceedsLimits" xml:space="preserve">
+    <value>檔案大小或影片長度超過允許範圍</value>
+  </data>
+  <data name="FailedToGetResponseFromServer" xml:space="preserve">
+    <value>無法從註冊伺服器得到回應</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>註冊</value>
+  </data>
+  <data name="WrongSubscriptionKey" xml:space="preserve">
+    <value>錯誤的訂閱金鑰，請再試一次</value>
+  </data>
+  <data name="OriginalYoutube" xml:space="preserve">
+    <value>原始的YouTube</value>
+  </data>
+  <data name="CopyItToClipboard" xml:space="preserve">
+    <value>複製到剪貼簿？</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>移至 {0}</value>
+  </data>
+  <data name="ShowSubscriptionRequestCode" xml:space="preserve">
+    <value>顯示訂購要求代碼</value>
+  </data>
+  <data name="SubscriptionRequestCode" xml:space="preserve">
+    <value>訂購要求代碼：</value>
+  </data>
+  <data name="GetRocketSubsctiption" xml:space="preserve">
+    <value>取得火箭訂閱</value>
+  </data>
+  <data name="NewVersionIsAvailable" xml:space="preserve">
+    <value>目前有可用的新版本。</value>
+  </data>
+  <data name="AudioQuality" xml:space="preserve">
+    <value>品質</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>預設值</value>
+  </data>
+  <data name="CreateDVD" xml:space="preserve">
+    <value>建立DVD</value>
+  </data>
+  <data name="OccupiedSpace" xml:space="preserve">
+    <value>使用空間：</value>
+  </data>
+  <data name="OoopsNoFiles" xml:space="preserve">
+    <value>哎呀，還未加入任何檔案！</value>
+  </data>
+  <data name="OpenInExternalPlayer" xml:space="preserve">
+    <value>在外部播放器開啟</value>
+  </data>
+  <data name="CodecPackDownloadedAndReady" xml:space="preserve">
+    <value>解碼包已經下載，並且已經準備安裝。所有的DVDVideoSoft程式將會自動關閉。</value>
+  </data>
+  <data name="EnterVerificationCodeAndRestart" xml:space="preserve">
+    <value>在您的瀏覽器輸入認證碼並且重新啟動程式。現在開啟瀏覽器？</value>
+  </data>
+  <data name="DVDVideoCreation" xml:space="preserve">
+    <value>建立DVD影片...</value>
+  </data>
+  <data name="NetFx35Install" xml:space="preserve">
+    <value>應用程式需要Microsoft .NET Framework 3.5。您想要現在安裝嗎？</value>
+  </data>
+  <data name="TotalDuration" xml:space="preserve">
+    <value>總長度</value>
+  </data>
+  <data name="Subtitles" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="ShutDownWarning" xml:space="preserve">
+    <value>您的電腦將在{0}秒後關機</value>
+  </data>
+  <data name="OriginalVideoName" xml:space="preserve">
+    <value>原來的_影片_名稱</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>程序</value>
+  </data>
+  <data name="PlayDownloadedAudioFile" xml:space="preserve">
+    <value>播放下載的聲音檔案</value>
+  </data>
+  <data name="PlayDownloadedVideo" xml:space="preserve">
+    <value>播放下載的影片</value>
+  </data>
+  <data name="NotEnoughSpace" xml:space="preserve">
+    <value>光碟上沒有足夠空間</value>
+  </data>
+  <data name="RequiresImapi" xml:space="preserve">
+    <value>此安裝需要Microsoft Image Mastering API (IMAPI)。請下載並安裝它，然後再次執行安裝程式。你想現在下載IMAPI嗎？</value>
+  </data>
+  <data name="CannotSaveVideo" xml:space="preserve">
+    <value>不能將影片儲存成檔案</value>
+  </data>
+  <data name="EstimatedDvdSize" xml:space="preserve">
+    <value>預估輸出的DVD大小 (+/- 10％)</value>
+  </data>
+  <data name="ShowInFolder" xml:space="preserve">
+    <value>資料夾中顯示</value>
+  </data>
+  <data name="CannotConnectToTheServer" xml:space="preserve">
+    <value>無法連接到伺服器</value>
+  </data>
+  <data name="CannotDownloadTheCodecPack" xml:space="preserve">
+    <value>不能下載編解碼集</value>
+  </data>
+  <data name="SomeCodecsAreMissing" xml:space="preserve">
+    <value>缺少一些編解碼器</value>
+  </data>
+  <data name="CheckPresetParameters" xml:space="preserve">
+    <value>檢查預設參數</value>
+  </data>
+  <data name="UnsupportedCodec" xml:space="preserve">
+    <value>不支援的編解碼器</value>
+  </data>
+  <data name="RocketSubscriptionFeaturesAreActivated" xml:space="preserve">
+    <value>火箭訂閱功能已經開啟</value>
+  </data>
+  <data name="SetupInProgress" xml:space="preserve">
+    <value>安裝進行中，請稍候...</value>
+  </data>
+  <data name="FilesNotFound" xml:space="preserve">
+    <value>從CUE清單中無法找到任何檔案</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="SameAsInput" xml:space="preserve">
+    <value>與輸入檔案相同</value>
+  </data>
+  <data name="AccelerateVideoEncodingWithFmtString" xml:space="preserve">
+    <value>使用{0}技術來加速影片解碼</value>
+  </data>
+  <data name="SaveVideo" xml:space="preserve">
+    <value>儲存影片</value>
+  </data>
+  <data name="CantFindTags" xml:space="preserve">
+    <value>無法找到此檔案的任何標籤</value>
+  </data>
+  <data name="DontAskAgain" xml:space="preserve">
+    <value>不再詢問</value>
+  </data>
+  <data name="ClipboardIsInUse" xml:space="preserve">
+    <value>剪貼簿被其他程式使用中，請稍後再試。</value>
+  </data>
+  <data name="ReportHasBeenGenerated" xml:space="preserve">
+    <value>報告已成功產生。\n現在開啟封存記錄檔的資料夾？</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>產生報告</value>
+  </data>
+  <data name="OpenLogFolder" xml:space="preserve">
+    <value>打開紀錄資料夾</value>
+  </data>
+  <data name="AllDvsProgramsMustBeClosed" xml:space="preserve">
+    <value>所有DVDVideoSoft的程式必須在報告建立之前關閉。\n現在關閉{0}並建立報告？</value>
+  </data>
+  <data name="JustSendTheLogs_template" xml:space="preserve">
+    <value>剛寄送"{0}"檔案\n給DVDVideoSoft支援團隊</value>
+  </data>
+  <data name="TheLoggingLevelWillBeSetToTrace" xml:space="preserve">
+    <value>記錄層級將設定在 TRACE，要繼續嗎？</value>
+  </data>
+  <data name="OriginalQualityDescription" xml:space="preserve">
+    <value>位元率，取樣率，頻道作為輸入檔案</value>
+  </data>
+  <data name="ManualProxy" xml:space="preserve">
+    <value>手動設定 Proxy</value>
+  </data>
+  <data name="NoProxy" xml:space="preserve">
+    <value>不使用 Proxy</value>
+  </data>
+  <data name="SystemProxy" xml:space="preserve">
+    <value>使用系統 Proxy 設定</value>
+  </data>
+  <data name="DirectoryNotWritable" xml:space="preserve">
+    <value>無法將檔案儲存至輸出資料夾，請選擇另一個。</value>
+  </data>
+  <data name="AVGIsRunningWarning" xml:space="preserve">
+    <value>AVG Accelerator在電腦中運作時，有時會導致網路連線中斷。\n\nDVDVideoSoft工具不需要使用AVG Accelerator，而是使用自己的加速器，因此我們建議將它關閉。\n\n以下是關閉AVG Accelerator的方法：</value>
+  </data>
+  <data name="TheFieldCannotBeBlank" xml:space="preserve">
+    <value>此領域不可為空白</value>
+  </data>
+  <data name="ConvertWith" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AddProgrammToContextMenuWindows" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CreateM3Uplaylist" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0280BFBB-47C5-4744-8C48-03B2BEDE07D4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DVDVideoSoft.DialogForms</RootNamespace>
+    <AssemblyName>DVDVideoSoft.DialogForms</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\Key\DVDVideoSoft.snk</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BrowseForFilesAndFolders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrowseForFilesAndFolders.Designer.cs">
+      <DependentUpon>BrowseForFilesAndFolders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrowserDlgAPI.cs" />
+    <Compile Include="CommonLinkedMsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonLinkedMsgBox.Designer.cs">
+      <DependentUpon>CommonLinkedMsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorReportForm.Designer.cs">
+      <DependentUpon>ErrorReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExplorerTreeViewWnd.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormUtils.cs" />
+    <Compile Include="GettingTagsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GettingTagsForm.designer.cs">
+      <DependentUpon>GettingTagsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkedMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LinkedMessageBox.Designer.cs">
+      <DependentUpon>LinkedMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListMessageForm.Designer.cs">
+      <DependentUpon>ListMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxes.cs" />
+    <Compile Include="FormPresetName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPresetName.Designer.cs">
+      <DependentUpon>FormPresetName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsFormBase.Designer.cs">
+      <DependentUpon>OptionsFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrestartChecker.cs" />
+    <Compile Include="ProcessResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessResultForm.Designer.cs">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ShellAPI.cs" />
+    <Compile Include="ShellItem.cs" />
+    <Compile Include="ShutDownWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShutDownWarning.Designer.cs">
+      <DependentUpon>ShutDownWarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemImageList.cs" />
+    <Compile Include="TreeGridCell.cs" />
+    <Compile Include="TreeGridEvents.cs" />
+    <Compile Include="TreeGridNode.cs" />
+    <Compile Include="TreeGridNodeCollection.cs" />
+    <Compile Include="TreeGridView.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BrowseForFilesAndFolders.resx">
+      <DependentUpon>BrowseForFilesAndFolders.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonLinkedMsgBox.resx">
+      <DependentUpon>CommonLinkedMsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorReportForm.resx">
+      <DependentUpon>ErrorReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GettingTagsForm.resx">
+      <DependentUpon>GettingTagsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkedMessageBox.resx">
+      <DependentUpon>LinkedMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListMessageForm.resx">
+      <DependentUpon>ListMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPresetName.resx">
+      <DependentUpon>FormPresetName.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.de-DE.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.el-GR.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.es-ES.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.fr-FR.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.hu-HU.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.it-IT.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.ja-JP.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.nl-NL.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.pl-PL.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.pt-BR.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.pt-PT.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.ru-RU.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.tr-TR.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.zh-CHS.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessResultForm.zh-CHT.resx">
+      <DependentUpon>ProcessResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShutDownWarning.resx">
+      <DependentUpon>ShutDownWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResources.de-DE.resx" />
+    <EmbeddedResource Include="StringResources.el-GR.resx" />
+    <EmbeddedResource Include="StringResources.es-ES.resx" />
+    <EmbeddedResource Include="StringResources.fr-FR.resx" />
+    <EmbeddedResource Include="StringResources.hu-HU.resx" />
+    <EmbeddedResource Include="StringResources.it-IT.resx" />
+    <EmbeddedResource Include="StringResources.ja-JP.resx" />
+    <EmbeddedResource Include="StringResources.nl-NL.resx" />
+    <EmbeddedResource Include="StringResources.pl-PL.resx" />
+    <EmbeddedResource Include="StringResources.pt-BR.resx" />
+    <EmbeddedResource Include="StringResources.pt-PT.resx" />
+    <EmbeddedResource Include="StringResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResources.ru-RU.resx" />
+    <EmbeddedResource Include="StringResources.tr-TR.resx" />
+    <EmbeddedResource Include="StringResources.zh-CHS.resx" />
+    <EmbeddedResource Include="StringResources.zh-CHT.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ProcessingIcon.gif" />
+    <EmbeddedResource Include="Resources\SuccessIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="OptionsFormBase.resx">
+      <DependentUpon>OptionsFormBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\OpenFolder.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppFxApi\DVDVideoSoft.AppFxApi.csproj">
+      <Project>{8AAF680B-BC95-4BB1-94C6-DDF13A5CEFE3}</Project>
+      <Name>DVDVideoSoft.AppFxApi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppFx\DVDVideoSoft.AppFx.csproj">
+      <Project>{6B1EAECD-1403-43B8-B289-00348AE650DF}</Project>
+      <Name>DVDVideoSoft.AppFx</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\DVDVideoSoft.Controls.csproj">
+      <Project>{D9EF81B5-170E-4102-A0A3-AAA1F210E497}</Project>
+      <Name>DVDVideoSoft.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\DVDVideoSoft.Resources.csproj">
+      <Project>{5ED4CBCB-D783-4044-9656-405DADF90D82}</Project>
+      <Name>DVDVideoSoft.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\DVDVideoSoft.Utils.csproj">
+      <Project>{7D8A210A-5622-4260-943A-1FC240D3F959}</Project>
+      <Name>DVDVideoSoft.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WarningIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InfoIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoImage.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

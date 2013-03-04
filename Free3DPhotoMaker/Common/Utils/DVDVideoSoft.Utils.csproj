@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D8A210A-5622-4260-943A-1FC240D3F959}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DVDVideoSoft.Utils</RootNamespace>
+    <AssemblyName>DVDVideoSoft.Utils</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\Key\DVDVideoSoft.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\_DLL\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AudioDefs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ComboBoxItem.cs" />
+    <Compile Include="CommonUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DvsUrls.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FormattingFunctions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Functions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GraphicsUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDvsControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILoggable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IniFileEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlatformUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductRegistrationStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Regedit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RockId_EXTERN.cs" />
+    <Compile Include="ProcUtils.cs" />
+    <Compile Include="SystemHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VideoDefs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VideoFileToIPOD_EXTERN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebBrowserUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinComponentUtils.cs" />
+    <Compile Include="PropsBuffer.cs" />
+    <Compile Include="WinContextMenu.cs" />
+    <Compile Include="WindowsRelatedTypes.cs" />
+    <Compile Include="NativeMethodException.cs" />
+    <Compile Include="NativeMethodLoader.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="ILogWriter.cs" />
+    <Compile Include="IPropsReader.cs" />
+    <Compile Include="LayoutAdjusterBase.cs" />
+    <Compile Include="LocaleUtils.cs" />
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysUtils.cs" />
+    <Compile Include="User32.cs" />
+    <Compile Include="WebRelatedTypes.cs" />
+    <Compile Include="WinApiGraphics.cs" />
+    <Compile Include="Programs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PropsProvider.cs" />
+    <Compile Include="RegistryPropsReader.cs" />
+    <Compile Include="RegistryPropsWriter.cs" />
+    <Compile Include="WebUtils.cs" />
+    <Compile Include="WinApi.cs" />
+    <Compile Include="WindowUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chimes.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Resources\DVDVideoSoft.Resources.csproj">
+      <Project>{5ED4CBCB-D783-4044-9656-405DADF90D82}</Project>
+      <Name>DVDVideoSoft.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

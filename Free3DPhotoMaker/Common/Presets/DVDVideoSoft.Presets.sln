@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDVideoSoft.Presets", "DVDVideoSoft.Presets.csproj", "{755BC93B-68F0-484D-AFF6-62D1202ACE35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Installation|x86 = Installation|x86
+		QtDebug|x86 = QtDebug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{755BC93B-68F0-484D-AFF6-62D1202ACE35}.Debug|x86.ActiveCfg = Debug|x86
+		{755BC93B-68F0-484D-AFF6-62D1202ACE35}.Debug|x86.Build.0 = Debug|x86
+		{755BC93B-68F0-484D-AFF6-62D1202ACE35}.Installation|x86.ActiveCfg = Release|x86
+		{755BC93B-68F0-484D-AFF6-62D1202ACE35}.Installation|x86.Build.0 = Release|x86
+		{755BC93B-68F0-484D-AFF6-62D1202ACE35}.QtDebug|x86.ActiveCfg = QtDebug|x86
+		{755BC93B-68F0-484D-AFF6-62D1202ACE35}.QtDebug|x86.Build.0 = QtDebug|x86
+		{755BC93B-68F0-484D-AFF6-62D1202ACE35}.Release|x86.ActiveCfg = Release|x86
+		{755BC93B-68F0-484D-AFF6-62D1202ACE35}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+    <App>
+    </App>
+    <UI>
+        <OutputFolder>%MYPICTURES%\%APPNAME%</OutputFolder>
+        <InputFilter>All images |*.RAW;*.PICT;*.BMP;*.DIB;*.RLE;*.ICO;*.EMF;*.WMF;*.GIF;*.JPEG;*.JPG;*.JPE;*.JFIF;*.PNG;*.TIFF;*.TIF;*.PNM;*.PPM;*.PBM;*.PGM;*.PFM;*.RPPM;*.RPGM;*.RPBM;*.PCX;*.XPM;*.XBM;*.WBMP;*.TGA;*.SGI;*.RAS;*.PSD;*.MNG;*.JP2;*.J2K;*.JNG;*.JBIG;*.IFF;*.HDR|RAW|*.RAW|PICT|*.PICT|BMP|*.BMP|JPEG|*.JPEG;*.JPG;*.JPE;*.JFIF;*.JP2;*.J2K;|RLE|*.RLE|ICO|*.ICO|EMF|*.EMF|WMF|*.WMF|PNG|*.PNG|TARGA|*.TGA|All files (*.*)|*.*</InputFilter>
+    </UI>
+    <Objects>
+    </Objects>
+</Config>

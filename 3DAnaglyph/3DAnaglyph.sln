@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vce_sparce", "3rdparty\CSparse\vce_sparce\vce_sparce.vcproj", "{C9E365D0-2E21-4C73-BD30-4F0DB1E89033}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DAnaglyph", "3DAnaglyph\3DAnaglyph.vcproj", "{A9CA58EF-76CF-4519-8600-2D1C2A2C3516}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC52E51F-520F-4701-B2A2-343E923920E2} = {AC52E51F-520F-4701-B2A2-343E923920E2}
+		{C9E365D0-2E21-4C73-BD30-4F0DB1E89033} = {C9E365D0-2E21-4C73-BD30-4F0DB1E89033}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DAnaglyphLib", "3DAnaglyph\3DAnaglyphLib.vcproj", "{AC52E51F-520F-4701-B2A2-343E923920E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9E365D0-2E21-4C73-BD30-4F0DB1E89033}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9E365D0-2E21-4C73-BD30-4F0DB1E89033}.Debug|Win32.Build.0 = Debug|Win32
+		{C9E365D0-2E21-4C73-BD30-4F0DB1E89033}.Release|Win32.ActiveCfg = Release|Win32
+		{C9E365D0-2E21-4C73-BD30-4F0DB1E89033}.Release|Win32.Build.0 = Release|Win32
+		{A9CA58EF-76CF-4519-8600-2D1C2A2C3516}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9CA58EF-76CF-4519-8600-2D1C2A2C3516}.Debug|Win32.Build.0 = Debug|Win32
+		{A9CA58EF-76CF-4519-8600-2D1C2A2C3516}.Release|Win32.ActiveCfg = Release|Win32
+		{A9CA58EF-76CF-4519-8600-2D1C2A2C3516}.Release|Win32.Build.0 = Release|Win32
+		{AC52E51F-520F-4701-B2A2-343E923920E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC52E51F-520F-4701-B2A2-343E923920E2}.Debug|Win32.Build.0 = Debug|Win32
+		{AC52E51F-520F-4701-B2A2-343E923920E2}.Release|Win32.ActiveCfg = Release|Win32
+		{AC52E51F-520F-4701-B2A2-343E923920E2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

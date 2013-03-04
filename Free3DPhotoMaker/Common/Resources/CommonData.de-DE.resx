@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HD_Video" xml:space="preserve">
+    <value>High Definition Video</value>
+  </data>
+  <data name="HQ_Video" xml:space="preserve">
+    <value>Video mit hoher Qualität</value>
+  </data>
+  <data name="Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="NotURLToDownloadVideoFrom" xml:space="preserve">
+    <value>Es gibt keine URLs zum Herunterladen.</value>
+  </data>
+  <data name="NQ_Video" xml:space="preserve">
+    <value>Video mit normaler Qualität</value>
+  </data>
+  <data name="Stereo" xml:space="preserve">
+    <value>Stereo</value>
+  </data>
+  <data name="VideoDownloading" xml:space="preserve">
+    <value>Video wird heruntergeladen...</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="OutputFolder" xml:space="preserve">
+    <value>Ausgabeordner...</value>
+  </data>
+  <data name="ProcessComplete" xml:space="preserve">
+    <value>Prozess ist abgeschlossen</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stopp</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>Keine Verbindung. Bitte überprüfen Sie Ihre Internetverbindung.</value>
+  </data>
+  <data name="ProcessStopped" xml:space="preserve">
+    <value>Prozess wurde angehalten</value>
+  </data>
+  <data name="DownloadingCompleted" xml:space="preserve">
+    <value>Download abgeschlossen</value>
+  </data>
+  <data name="DownloadingCompleteSuccesful" xml:space="preserve">
+    <value>Downloadvorgang wurde erfolgreich abgeschlossen</value>
+  </data>
+  <data name="SomeLinksNotDownloaded" xml:space="preserve">
+    <value>Das Programm hat einzelne Links nicht heruntergeladen</value>
+  </data>
+  <data name="WantSolution" xml:space="preserve">
+    <value>Möchten Sie eine Lösung finden?</value>
+  </data>
+  <data name="CancelProcess" xml:space="preserve">
+    <value>Vorgang abgebrochen...</value>
+  </data>
+  <data name="CannotReadFile" xml:space="preserve">
+    <value>Die Datei kann nicht gelesen werden. Die Datei ist entweder ungültig oder das Format wird derzeit nicht unterstützt.</value>
+  </data>
+  <data name="ConversionError" xml:space="preserve">
+    <value>Fehler beim Konvertieren</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="FileFormatNotSupported" xml:space="preserve">
+    <value>Dieses Dateiformat wird nicht unterstützt</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="LinkNotContainVideo" xml:space="preserve">
+    <value>Link enthält kein Video</value>
+  </data>
+  <data name="NotYouTubeLink" xml:space="preserve">
+    <value>Das ist kein YouTube-Videolink</value>
+  </data>
+  <data name="NoVideoData" xml:space="preserve">
+    <value>Keine Videodaten</value>
+  </data>
+  <data name="ReinstallProgramm" xml:space="preserve">
+    <value>Installieren Sie das Programm erneut</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PleaseEnterTag" xml:space="preserve">
+    <value>Bitte geben Sie mindestens ein Tag für Ihr Video ein</value>
+  </data>
+  <data name="FileIsFailed" xml:space="preserve">
+    <value>Datei(en) fehlgeschlagen.</value>
+  </data>
+  <data name="FileUploading" xml:space="preserve">
+    <value>Datei wird hochgeladen...</value>
+  </data>
+  <data name="InvalidLoginPassword" xml:space="preserve">
+    <value>Login oder Passwort ungültig</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>Vorgang wurde erfolgreich abgeschlossen</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Bitte wählen Sie eine Datei aus</value>
+  </data>
+  <data name="WrongTag" xml:space="preserve">
+    <value>Jedes Tag darf mindestens zwei Buchstaben und/oder Ziffern enthalten.</value>
+  </data>
+  <data name="ConversionCompleteSuccessful" xml:space="preserve">
+    <value>Konvertierung wurde erfolgreich abgeschlossen</value>
+  </data>
+  <data name="OutputFileAlreadyExists" xml:space="preserve">
+    <value>Die Ausgabedatei existiert bereits. Wollen Sie diese Datei ersetzen?</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bestätigen</value>
+  </data>
+  <data name="OutputFolderNotExist" xml:space="preserve">
+    <value>Ausgabeordner existiert nicht</value>
+  </data>
+  <data name="OutputPathEmpty" xml:space="preserve">
+    <value>Ausgabepfad ist leer</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <data name="VideoAlreadyInList" xml:space="preserve">
+    <value>Dieses Video ist bereits in der Downloadliste enthalten.</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="CannotAccessYouTube" xml:space="preserve">
+    <value>Das Programm hat keinen YouTube-Zugang</value>
+  </data>
+  <data name="CannotResolveYouTubeLink" xml:space="preserve">
+    <value>Das Programm kann diesen YouTube-Link nicht auflösen. Möchten Sie eine Lösung finden?</value>
+  </data>
+  <data name="ListNotLoaded" xml:space="preserve">
+    <value>Liste wurde nicht geladen</value>
+  </data>
+  <data name="FilesNotOpened" xml:space="preserve">
+    <value>Einige Dateien wurden nicht geöffnet</value>
+  </data>
+  <data name="ListNotSaved" xml:space="preserve">
+    <value>Liste konnte nicht gespeichert werden.</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Weiter?</value>
+  </data>
+  <data name="BadCharacters" xml:space="preserve">
+    <value>Ein Dateiname darf keines der folgenden Zeichen enthalten:</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Neuer Ordner</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>sind verfügbar,</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>sind erforderlich.</value>
+  </data>
+  <data name="ThereIsNewVersion" xml:space="preserve">
+    <value>Eine neue Version ist verfügbar. Möchten Sie sie jetzt herunterladen und installieren?</value>
+  </data>
+  <data name="VersionIsUpToDate" xml:space="preserve">
+    <value>Ihre Version ist auf dem aktuellsten Stand.</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Zugriff verweigert</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Bearbeitung</value>
+  </data>
+  <data name="ProcessingFile" xml:space="preserve">
+    <value>Dateikonvertierung...</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>abgeschlossen</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>Überprüfen Sie Ihre Einstellungen für Firewall, Proxy-Server oder Internetverbindung.</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>abgebrochen</value>
+  </data>
+  <data name="FileTooLarge" xml:space="preserve">
+    <value>Datei ist zu groß</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>Hochladen...</value>
+  </data>
+  <data name="UploadFailed" xml:space="preserve">
+    <value>Hochladen fehlgeschlagen</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Aktuell:</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Gesamt:</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_InclSub" xml:space="preserve">
+    <value>Unterordner einbeziehen</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_Title" xml:space="preserve">
+    <value>Dateien und Ordner durchsuchen</value>
+  </data>
+  <data name="BrowseForFilesAndFolder_MainLabel" xml:space="preserve">
+    <value>Dateien und Ordner:</value>
+  </data>
+  <data name="TagLengthCannotBe" xml:space="preserve">
+    <value>Die Taglänge soll 30 Zeichen nicht überschreiten</value>
+  </data>
+  <data name="ATagCannotContain" xml:space="preserve">
+    <value>Der Tagname darf kein Komma enthalten</value>
+  </data>
+  <data name="TagCreationHints" xml:space="preserve">
+    <value>Hinweis zur Erstellung der Tags:</value>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>Privat</value>
+  </data>
+  <data name="Public" xml:space="preserve">
+    <value>Öffentlich</value>
+  </data>
+  <data name="OpenDlgImageFilter" xml:space="preserve">
+    <value>Bilddateien</value>
+  </data>
+  <data name="Economy" xml:space="preserve">
+    <value>Ökonomisch</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>Hohe</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ConversionProgress" xml:space="preserve">
+    <value>Konvertierungsvorgang</value>
+  </data>
+  <data name="ConversionFailed" xml:space="preserve">
+    <value>Konvertierung gescheitert</value>
+  </data>
+  <data name="SomeFilesWereNotProcessed" xml:space="preserve">
+    <value>Einige Dateien wurden nicht bearbeitet</value>
+  </data>
+  <data name="DontAskAgain_EnableInOptions" xml:space="preserve">
+    <value>Diese Frage nicht mehr anzeigen. (Diese Frage im Optionen-Dialogfeld aktivieren)</value>
+  </data>
+  <data name="VideoMaybePartOfPlaylist" xml:space="preserve">
+    <value>Dieses Video kann ein Teil vom Playlist sein. Möchten Sie versuchen, den kompletten Playlist herunterzuladen?</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="URLNotContainYTVideos" xml:space="preserve">
+    <value>Die URL enthält kein Video zum Herunterladen</value>
+  </data>
+  <data name="SomeCodecsAreMissingTheyWillBeDownloaded" xml:space="preserve">
+    <value>Die fehlenden Codecs werden heruntergeladen. Möchten Sie fortfahren?</value>
+  </data>
+  <data name="CodecsDownload" xml:space="preserve">
+    <value>Codecs herunterladen</value>
+  </data>
+  <data name="Formats" xml:space="preserve">
+    <value>Formate</value>
+  </data>
+  <data name="ShowAnHTMLExampleFileAfterConversion" xml:space="preserve">
+    <value>Eine HTML-Beispieldatei nach dem Konvertieren anzeigen</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player...</value>
+  </data>
+  <data name="UnableCreateOnCD" xml:space="preserve">
+    <value>Fehler beim Erstellen einer Datei auf CD/DVD.</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="PleaseInstallTheLatest" xml:space="preserve">
+    <value>Bitte installieren Sie die aktuellste Version direkt von unserer Website:</value>
+  </data>
+  <data name="RequiredModuleMissing" xml:space="preserve">
+    <value>Das Programm kann den Prozess nicht fortsetzen, weil das notwendige Modul fehlt</value>
+  </data>
+  <data name="DragAndDropFilesHere" xml:space="preserve">
+    <value>Dateien hierher ziehen</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Abspielen</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Aktuell</value>
+  </data>
+  <data name="PlayerColor" xml:space="preserve">
+    <value>Playerfarbe:</value>
+  </data>
+  <data name="PlayerImageLabel" xml:space="preserve">
+    <value>Player:</value>
+  </data>
+  <data name="PlayerType" xml:space="preserve">
+    <value>Player-Typ:</value>
+  </data>
+  <data name="FlashPlayer" xml:space="preserve">
+    <value>Flash-Player</value>
+  </data>
+  <data name="DownloadingInProgress" xml:space="preserve">
+    <value>Download läuft. Bitte warten Sie...</value>
+  </data>
+  <data name="DownloadFailed" xml:space="preserve">
+    <value>Download fehlgeschlagen</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Mehr Infos</value>
+  </data>
+  <data name="Preset" xml:space="preserve">
+    <value>Voreinstellung</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Installation</value>
+  </data>
+  <data name="PlayStop" xml:space="preserve">
+    <value>Abspielen / Stopp</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="PleaseAddAudioFiles" xml:space="preserve">
+    <value>Bitte fügen Sie Audiodateien hinzu</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>jahr</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Jetzt kaufen</value>
+  </data>
+  <data name="FailedToConnectToTheInternet" xml:space="preserve">
+    <value>Internetverbindung fehlgeschlagen</value>
+  </data>
+  <data name="FailedToSaveLicenseFile" xml:space="preserve">
+    <value>Sicherung der Lizenzdatei ist fehlgeschlagen</value>
+  </data>
+  <data name="LicenseFileCorrupted" xml:space="preserve">
+    <value>Lizenzdatei ist beschädigt</value>
+  </data>
+  <data name="InvalidSubscriptionKey" xml:space="preserve">
+    <value>Sie haben den Abonnementschlüssel nicht korrekt eingegeben. Versuchen Sie bitte wieder</value>
+  </data>
+  <data name="LicenseFileNotFound" xml:space="preserve">
+    <value>Lizenzdatei wird nicht gefunden</value>
+  </data>
+  <data name="LicenseHasExpired" xml:space="preserve">
+    <value>Lizenz ist abgelaufen</value>
+  </data>
+  <data name="ReadHttpResponseFailed" xml:space="preserve">
+    <value>Es ist nicht möglich, eine Antwort von dem Registrierungsserver zu erhalten</value>
+  </data>
+  <data name="RegistrationFailed" xml:space="preserve">
+    <value>Registrierung fehlgeschlagen</value>
+  </data>
+  <data name="RegistrationIsComplete" xml:space="preserve">
+    <value>Registrierungsvorgang ist abgeschlossen</value>
+  </data>
+  <data name="ThankYouForRegistering" xml:space="preserve">
+    <value>Vielen Dank für Ihre Registrierung</value>
+  </data>
+  <data name="ThisMachineIsNotRegistered" xml:space="preserve">
+    <value>Der Computer ist für dieses Abonnement nicht registriert</value>
+  </data>
+  <data name="AnErrorOccured" xml:space="preserve">
+    <value>Ein Fehler ist aufgetreten</value>
+  </data>
+  <data name="Completed_U" xml:space="preserve">
+    <value>Abgeschlossen</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Qualität</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>Überprüfung...</value>
+  </data>
+  <data name="ReadyForDownload" xml:space="preserve">
+    <value>Bereit zum Download</value>
+  </data>
+  <data name="Enqueued" xml:space="preserve">
+    <value>Eingereiht</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Fehlgeschlagen</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Pausiert</value>
+  </data>
+  <data name="Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Converted" xml:space="preserve">
+    <value>Konvertiert</value>
+  </data>
+  <data name="ConnectionError" xml:space="preserve">
+    <value>Verbindungsfehler</value>
+  </data>
+  <data name="UnsupportedFileFormat" xml:space="preserve">
+    <value>Nicht unterstütztes Dateiformat</value>
+  </data>
+  <data name="VideoFileSizeExceedsLimits" xml:space="preserve">
+    <value>Dateigröße oder Videodauer überschreitet die zulässige Maximalgrenze</value>
+  </data>
+  <data name="FailedToGetResponseFromServer" xml:space="preserve">
+    <value>Es ist nicht möglich, eine Antwort von dem Registrierungsserver zu erhalten</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registrierung</value>
+  </data>
+  <data name="WrongSubscriptionKey" xml:space="preserve">
+    <value>Sie haben den Abonnementschlüssel nicht korrekt eingegeben. Versuchen Sie bitte wieder</value>
+  </data>
+  <data name="OriginalYoutube" xml:space="preserve">
+    <value>Original YouTube</value>
+  </data>
+  <data name="CopyItToClipboard" xml:space="preserve">
+    <value>Möchten Sie in die Zwischenablage kopieren?</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Zu {0} gehen</value>
+  </data>
+  <data name="ShowSubscriptionRequestCode" xml:space="preserve">
+    <value>Code der Abonnementanfrage anzeigen</value>
+  </data>
+  <data name="SubscriptionRequestCode" xml:space="preserve">
+    <value>Code der Abonnementanfrage:</value>
+  </data>
+  <data name="GetRocketSubsctiption" xml:space="preserve">
+    <value>Erhalten Sie ein Rocket-Abonnement</value>
+  </data>
+  <data name="NewVersionIsAvailable" xml:space="preserve">
+    <value>Die neue Version ist verfügbar</value>
+  </data>
+  <data name="AudioQuality" xml:space="preserve">
+    <value>Qualität</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>Voreinstellung</value>
+  </data>
+  <data name="CreateDVD" xml:space="preserve">
+    <value>DVD erstellen</value>
+  </data>
+  <data name="OccupiedSpace" xml:space="preserve">
+    <value>Belegter Speicher:</value>
+  </data>
+  <data name="OoopsNoFiles" xml:space="preserve">
+    <value>Ooops! Sie haben keine Dateien hinzugefügt</value>
+  </data>
+  <data name="OpenInExternalPlayer" xml:space="preserve">
+    <value>Im externen Player öffnen</value>
+  </data>
+  <data name="CodecPackDownloadedAndReady" xml:space="preserve">
+    <value>Das Codec Pack wurde heruntergeladen und kann installiert werden. Alle DVDVideoSoft-Programme werden automatisch geschlossen.</value>
+  </data>
+  <data name="EnterVerificationCodeAndRestart" xml:space="preserve">
+    <value>Bitte geben Sie den Bestätigungscode in Ihrem Browser ein und starten Sie das Programm neu. Möchten Sie den Browser jetzt öffnen?</value>
+  </data>
+  <data name="DVDVideoCreation" xml:space="preserve">
+    <value>DVD-Video wird erstellt...</value>
+  </data>
+  <data name="NetFx35Install" xml:space="preserve">
+    <value>Die Anwendung erfordert Microsoft. NET Framework 3.5. Möchten Sie jetzt installieren?</value>
+  </data>
+  <data name="TotalDuration" xml:space="preserve">
+    <value>Gesamtdauer</value>
+  </data>
+  <data name="Subtitles" xml:space="preserve">
+    <value>Untertitel</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="ShutDownWarning" xml:space="preserve">
+    <value>Ihr Computer wird in {0} sec heruntergefahren</value>
+  </data>
+  <data name="OriginalVideoName" xml:space="preserve">
+    <value>Ursprünglcher_Videoname</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Fortschritt</value>
+  </data>
+  <data name="PlayDownloadedAudioFile" xml:space="preserve">
+    <value>Heruntergeladene Audiodatei abspielen</value>
+  </data>
+  <data name="PlayDownloadedVideo" xml:space="preserve">
+    <value>Heruntergeladenes Video abspielen</value>
+  </data>
+  <data name="NotEnoughSpace" xml:space="preserve">
+    <value>Nicht genügend Speicherplatz auf dem Datenträger</value>
+  </data>
+  <data name="RequiresImapi" xml:space="preserve">
+    <value>Die Installation erfordert Image Mastering API (IMAPI). Bitte laden Sie herunter und installieren Sie es, starten Sie das Setup-Programm erneut. Möchten Sie IMAPI jetzt herunterladen?</value>
+  </data>
+  <data name="CannotSaveVideo" xml:space="preserve">
+    <value>Video kann nicht in der Datei gespeichert werden:</value>
+  </data>
+  <data name="EstimatedDvdSize" xml:space="preserve">
+    <value>Geschätzte Größe der Ausgabedatei (+/- 10%)</value>
+  </data>
+  <data name="ShowInFolder" xml:space="preserve">
+    <value>In Ordner anzeigen</value>
+  </data>
+  <data name="CannotConnectToTheServer" xml:space="preserve">
+    <value>Es kann keine Verbindung zum Server hergestellt werden</value>
+  </data>
+  <data name="CannotDownloadTheCodecPack" xml:space="preserve">
+    <value>Codec-Pack konnte nicht geladen werden</value>
+  </data>
+  <data name="SomeCodecsAreMissing" xml:space="preserve">
+    <value>Einige Codecs fehlen</value>
+  </data>
+  <data name="CheckPresetParameters" xml:space="preserve">
+    <value>Voreinstellungsparameter überprüfen</value>
+  </data>
+  <data name="UnsupportedCodec" xml:space="preserve">
+    <value>Codec wird nicht unterstützt</value>
+  </data>
+  <data name="AboveNormalPriority" xml:space="preserve">
+    <value>Überdurchschnittliche Priorität</value>
+  </data>
+  <data name="BelowNormalPriority" xml:space="preserve">
+    <value>Unterdurchschnittliche Priorität</value>
+  </data>
+  <data name="HighPriority" xml:space="preserve">
+    <value>Hohe Priorität</value>
+  </data>
+  <data name="LowPriority" xml:space="preserve">
+    <value>Geringe Priorität</value>
+  </data>
+  <data name="NormalPriority" xml:space="preserve">
+    <value>Normale Priorität</value>
+  </data>
+  <data name="RocketSubscriptionFeaturesAreActivated" xml:space="preserve">
+    <value>Rocket-Abonnement-Funktionen sind aktiviert</value>
+  </data>
+  <data name="SetupInProgress" xml:space="preserve">
+    <value>Die Installation wird durchgeführt. Bitte warten Sie...</value>
+  </data>
+  <data name="FilesNotFound" xml:space="preserve">
+    <value>Cue-List-Dateien können nicht lokalisiert werden</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>und</value>
+  </data>
+  <data name="SameAsInput" xml:space="preserve">
+    <value>Wie Eingabedatei</value>
+  </data>
+  <data name="AccelerateVideoEncodingWithFmtString" xml:space="preserve">
+    <value>Videokodierung  mit {0} Technologie beschleunigen</value>
+  </data>
+  <data name="SaveVideo" xml:space="preserve">
+    <value>Video speichern</value>
+  </data>
+  <data name="CantFindTags" xml:space="preserve">
+    <value>Keine Tags für diese Datei gefunden</value>
+  </data>
+  <data name="DontAskAgain" xml:space="preserve">
+    <value>Diese Frage nicht mehr anzeigen</value>
+  </data>
+  <data name="ClipboardIsInUse" xml:space="preserve">
+    <value>Zwischenablage wird durch einen anderen Prozess blockiert. Bitte versuchen Sie es später.</value>
+  </data>
+  <data name="ReportHasBeenGenerated" xml:space="preserve">
+    <value>Bericht wurde erfolgreich erstellt.\nMöchten Sie jetzt den Ordner mit den archivierten Log-Dateien schicken?</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Bericht generieren</value>
+  </data>
+  <data name="OpenLogFolder" xml:space="preserve">
+    <value>Log-Ordner öffnen</value>
+  </data>
+  <data name="AllDvsProgramsMustBeClosed" xml:space="preserve">
+    <value>Alle DVDVideoSoft Programme müssen geschlossen werden, bevor der Bericht generiert wird.\nMöchten Sie {0} jetzt schließen und einen Bericht generieren?</value>
+  </data>
+  <data name="JustSendTheLogs_template" xml:space="preserve">
+    <value>Schicken Sie die Datei "{0}"\nan DVDVideoSoft Support Team</value>
+  </data>
+  <data name="TheLoggingLevelWillBeSetToTrace" xml:space="preserve">
+    <value>Die Protokollebene TRACE wird ausgewählt werden. Weiter bestehen?</value>
+  </data>
+  <data name="OriginalQualityDescription" xml:space="preserve">
+    <value>Bitrate, Abtastrate, Kanäle wie in der Eingabedatei</value>
+  </data>
+  <data name="ManualProxy" xml:space="preserve">
+    <value>Manuelle Proxy-Konfiguration</value>
+  </data>
+  <data name="NoProxy" xml:space="preserve">
+    <value>Kein Proxy</value>
+  </data>
+  <data name="SystemProxy" xml:space="preserve">
+    <value>Proxy-Einstellungen des Systems verwenden</value>
+  </data>
+  <data name="DirectoryNotWritable" xml:space="preserve">
+    <value>Die Datei kann nicht in diesen Ausgabeordner gespeichert werden. Bitte wählen Sie einen anderen Ordner.</value>
+  </data>
+  <data name="AVGIsRunningWarning" xml:space="preserve">
+    <value>AVG Accelerator läuft auf Ihrem PC. Manchmal belastet AVG die Internetverbindung.\n\nDVDVideoSoft hat eigenen Accelerator und benötigt AVG Accelerator nicht. Wir empfehlen Ihnen, ihn auszuschalten.\n\nLesen Sie bitte, wie man  AVG Accelerator ausschalten kann:</value>
+  </data>
+  <data name="TheFieldCannotBeBlank" xml:space="preserve">
+    <value>Das Feld darf nicht leer sein</value>
+  </data>
+  <data name="ConvertWith" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AddProgrammToContextMenuWindows" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CreateM3Uplaylist" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

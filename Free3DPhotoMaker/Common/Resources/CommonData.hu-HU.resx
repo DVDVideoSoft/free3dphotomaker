@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HD_Video" xml:space="preserve">
+    <value>Nagyfelbontású (HD) videó</value>
+  </data>
+  <data name="HQ_Video" xml:space="preserve">
+    <value>Magas minőségű videó</value>
+  </data>
+  <data name="Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="NotURLToDownloadVideoFrom" xml:space="preserve">
+    <value>Nincs forrás URL!</value>
+  </data>
+  <data name="NQ_Video" xml:space="preserve">
+    <value>Normál minőségű videó</value>
+  </data>
+  <data name="Stereo" xml:space="preserve">
+    <value>Sztereó</value>
+  </data>
+  <data name="VideoDownloading" xml:space="preserve">
+    <value>Videó letöltése...</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Bezár</value>
+  </data>
+  <data name="OutputFolder" xml:space="preserve">
+    <value>Kimeneti mappa...</value>
+  </data>
+  <data name="ProcessComplete" xml:space="preserve">
+    <value>Folyamat befejeződött</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Megállít</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>Nincs kapcsolat. Ellenőrizd az internetkapcsolatot.</value>
+  </data>
+  <data name="ProcessStopped" xml:space="preserve">
+    <value>Folyamat megállítva</value>
+  </data>
+  <data name="DownloadingCompleted" xml:space="preserve">
+    <value>A letöltés befejeződött</value>
+  </data>
+  <data name="DownloadingCompleteSuccesful" xml:space="preserve">
+    <value>A letöltés sikeresen befejeződött</value>
+  </data>
+  <data name="SomeLinksNotDownloaded" xml:space="preserve">
+    <value>A program néhány linket nem töltött le</value>
+  </data>
+  <data name="WantSolution" xml:space="preserve">
+    <value>Szeretnél megoldást keresni a problémára?</value>
+  </data>
+  <data name="CancelProcess" xml:space="preserve">
+    <value>Folyamat megszakítása...</value>
+  </data>
+  <data name="CannotReadFile" xml:space="preserve">
+    <value>A program nem képes ezt a fájlt olvasni. A fájl nem érvényes vagy a formátuma jelenleg nem támogatott</value>
+  </data>
+  <data name="ConversionError" xml:space="preserve">
+    <value>Konvertálási hiba</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Hiba</value>
+  </data>
+  <data name="FileFormatNotSupported" xml:space="preserve">
+    <value>Ez a fájlformátum nem támogatott</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Információ</value>
+  </data>
+  <data name="LinkNotContainVideo" xml:space="preserve">
+    <value>A link nem tartalmaz videót</value>
+  </data>
+  <data name="NotYouTubeLink" xml:space="preserve">
+    <value>Ez nem YouTube link</value>
+  </data>
+  <data name="NoVideoData" xml:space="preserve">
+    <value>Nincs videóadat</value>
+  </data>
+  <data name="ReinstallProgramm" xml:space="preserve">
+    <value>Telepítsd újra a programot</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Rendben</value>
+  </data>
+  <data name="PleaseEnterTag" xml:space="preserve">
+    <value>Kérlek adj meg legalább egy címkét a videódhoz</value>
+  </data>
+  <data name="FileIsFailed" xml:space="preserve">
+    <value>fájl nem sikerült.</value>
+  </data>
+  <data name="FileUploading" xml:space="preserve">
+    <value>Fájl feltöltése...</value>
+  </data>
+  <data name="InvalidLoginPassword" xml:space="preserve">
+    <value>Érvénytelen felhasználónév/jelszó</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>A folyamat sikeresen befejeződött</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Kérlek válassz ki egy fájlt</value>
+  </data>
+  <data name="WrongTag" xml:space="preserve">
+    <value>Minden címkének legalább két betűből és/vagy számból kell állnia</value>
+  </data>
+  <data name="ConversionCompleteSuccessful" xml:space="preserve">
+    <value>A konvertálás sikeresen befejeződött</value>
+  </data>
+  <data name="OutputFileAlreadyExists" xml:space="preserve">
+    <value>A kimeneti fájl már létezik. Lecseréled?</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Megerősít</value>
+  </data>
+  <data name="OutputFolderNotExist" xml:space="preserve">
+    <value>A kimeneti mappa nem létezik</value>
+  </data>
+  <data name="OutputPathEmpty" xml:space="preserve">
+    <value>A kimeneti útvonal üres</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="VideoAlreadyInList" xml:space="preserve">
+    <value>Ez a videó már szerepel a letöltési listában.</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>videók</value>
+  </data>
+  <data name="CannotAccessYouTube" xml:space="preserve">
+    <value>A programnak nem sikerült hozzáférnie a YouTube-hoz</value>
+  </data>
+  <data name="CannotResolveYouTubeLink" xml:space="preserve">
+    <value>A programnak nem sikerült hozzáférnie ehhez a YouTube linkhez. Szeretnél megoldást keresni?</value>
+  </data>
+  <data name="ListNotLoaded" xml:space="preserve">
+    <value>A lista nincs betöltve</value>
+  </data>
+  <data name="FilesNotOpened" xml:space="preserve">
+    <value>Néhány fájl nem került megnyitásra</value>
+  </data>
+  <data name="ListNotSaved" xml:space="preserve">
+    <value>A lista nincs elmentve.</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Folytatod?</value>
+  </data>
+  <data name="BadCharacters" xml:space="preserve">
+    <value>A fájlnév nem tartalmazhatja a következő karaktereket:</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Új mappa</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Átnevez</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>elérhető.</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>szükséges.</value>
+  </data>
+  <data name="ThereIsNewVersion" xml:space="preserve">
+    <value>Új verzió érhető el. Szeretnéd most letölteni és telepíteni?</value>
+  </data>
+  <data name="VersionIsUpToDate" xml:space="preserve">
+    <value>A jelenlegi verzió a legfrissebb.</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Hozzáférés megtagadva</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Feldolgozás</value>
+  </data>
+  <data name="ProcessingFile" xml:space="preserve">
+    <value>Fájlkonvertálás...</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>teljesítve</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Videó</value>
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>Ellenőrizd a tűzfalat, proxyt vagy az internetkapcsolat beállításait.</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>megszakítva</value>
+  </data>
+  <data name="FileTooLarge" xml:space="preserve">
+    <value>A fájlméret túl nagy</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>Feltöltés...</value>
+  </data>
+  <data name="UploadFailed" xml:space="preserve">
+    <value>feltöltés nem sikerült</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Jelenlegi:</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Összesen:</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_InclSub" xml:space="preserve">
+    <value>Almappákat is</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_Title" xml:space="preserve">
+    <value>Fájlok és mappák tallózása</value>
+  </data>
+  <data name="BrowseForFilesAndFolder_MainLabel" xml:space="preserve">
+    <value>Fájlok és mappák:</value>
+  </data>
+  <data name="TagLengthCannotBe" xml:space="preserve">
+    <value>A címke nem lehet hosszabb 30 karakternél</value>
+  </data>
+  <data name="ATagCannotContain" xml:space="preserve">
+    <value>A címkenév nem tartalmazhat vesszőt</value>
+  </data>
+  <data name="TagCreationHints" xml:space="preserve">
+    <value>Tippek a címkék létrehozásához:</value>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>Privát</value>
+  </data>
+  <data name="Public" xml:space="preserve">
+    <value>Nyilvános</value>
+  </data>
+  <data name="OpenDlgImageFilter" xml:space="preserve">
+    <value>Képfájlok</value>
+  </data>
+  <data name="Economy" xml:space="preserve">
+    <value>Gazdaságos</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>Magas</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ConversionProgress" xml:space="preserve">
+    <value>Konvertálás előrehaladottsága</value>
+  </data>
+  <data name="ConversionFailed" xml:space="preserve">
+    <value>Konvertálás nem sikerült</value>
+  </data>
+  <data name="SomeFilesWereNotProcessed" xml:space="preserve">
+    <value>Néhány fájl nem került feldolgozásra</value>
+  </data>
+  <data name="DontAskAgain_EnableInOptions" xml:space="preserve">
+    <value>Ne kérdezze újra. (Ezt a kérdés a Beállításokban kapcsolhatod be)</value>
+  </data>
+  <data name="VideoMaybePartOfPlaylist" xml:space="preserve">
+    <value>Ez a videó már valószínűleg szerepel a lejátszási listában. Szeretnéd letölteni a teljes lejátszási listát?</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nem</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Igen</value>
+  </data>
+  <data name="URLNotContainYTVideos" xml:space="preserve">
+    <value>Ezen a linken nem található YouTube videó</value>
+  </data>
+  <data name="SomeCodecsAreMissingTheyWillBeDownloaded" xml:space="preserve">
+    <value>Néhány kodek hiányzik, ezek most letöltésre kerülnek. Biztosan folytatod?</value>
+  </data>
+  <data name="CodecsDownload" xml:space="preserve">
+    <value>Kodekek letöltése</value>
+  </data>
+  <data name="Formats" xml:space="preserve">
+    <value>Formátumok</value>
+  </data>
+  <data name="ShowAnHTMLExampleFileAfterConversion" xml:space="preserve">
+    <value>HTML példafájl megjelenítése a konvertálás után</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Lejátszó...</value>
+  </data>
+  <data name="UnableCreateOnCD" xml:space="preserve">
+    <value>Fájl létrehozása a CD/DVD-n nem sikerült.</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Hang</value>
+  </data>
+  <data name="PleaseInstallTheLatest" xml:space="preserve">
+    <value>Kérlek telepítsd a legfrissebb verziót közvetlenül a honlapunkról:</value>
+  </data>
+  <data name="RequiredModuleMissing" xml:space="preserve">
+    <value>A program nem képes folytatni a munkát, mert egy szükséges modul hiányzik</value>
+  </data>
+  <data name="DragAndDropFilesHere" xml:space="preserve">
+    <value>Húzd és dobd ide a fájlokat</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Lejátszás</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Legfrissebb</value>
+  </data>
+  <data name="PlayerColor" xml:space="preserve">
+    <value>Lejátszó színe:</value>
+  </data>
+  <data name="PlayerImageLabel" xml:space="preserve">
+    <value>Lejátszó:</value>
+  </data>
+  <data name="PlayerType" xml:space="preserve">
+    <value>Lejátszó típusa:</value>
+  </data>
+  <data name="FlashPlayer" xml:space="preserve">
+    <value>Flash lejátszó</value>
+  </data>
+  <data name="DownloadingInProgress" xml:space="preserve">
+    <value>Letöltés folyamatban van, kérlek várj...</value>
+  </data>
+  <data name="DownloadFailed" xml:space="preserve">
+    <value>Letöltés sikertelen</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>További részletek</value>
+  </data>
+  <data name="Preset" xml:space="preserve">
+    <value>Beállítás</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Telepítés</value>
+  </data>
+  <data name="PlayStop" xml:space="preserve">
+    <value>Lejátszás / Megállítás</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Figyelmeztetés</value>
+  </data>
+  <data name="PleaseAddAudioFiles" xml:space="preserve">
+    <value>Kérlek adj hozzá audiófájlokat</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>év</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Megvesz most</value>
+  </data>
+  <data name="FailedToConnectToTheInternet" xml:space="preserve">
+    <value>Nem sikerült csatlakozni az internetre</value>
+  </data>
+  <data name="FailedToSaveLicenseFile" xml:space="preserve">
+    <value>Licenszfájl elmentése nem sikerült</value>
+  </data>
+  <data name="LicenseFileCorrupted" xml:space="preserve">
+    <value>A licenszfájl megsérült</value>
+  </data>
+  <data name="InvalidSubscriptionKey" xml:space="preserve">
+    <value>Rossz előfizetési kulcs, kérlek próbáld újra</value>
+  </data>
+  <data name="LicenseFileNotFound" xml:space="preserve">
+    <value>Licenszfájl nem található</value>
+  </data>
+  <data name="LicenseHasExpired" xml:space="preserve">
+    <value>Az előfizetés lejárt</value>
+  </data>
+  <data name="ReadHttpResponseFailed" xml:space="preserve">
+    <value>Nem érkezett válasz a regisztrációs szervertől</value>
+  </data>
+  <data name="RegistrationFailed" xml:space="preserve">
+    <value>Regisztráció nem sikerült</value>
+  </data>
+  <data name="RegistrationIsComplete" xml:space="preserve">
+    <value>Regisztráció sikerült</value>
+  </data>
+  <data name="ThankYouForRegistering" xml:space="preserve">
+    <value>Köszönjük, hogy regisztráltál</value>
+  </data>
+  <data name="ThisMachineIsNotRegistered" xml:space="preserve">
+    <value>Ez a számítógép nincs regisztrálva erre az előfizetésre</value>
+  </data>
+  <data name="AnErrorOccured" xml:space="preserve">
+    <value>Hiba történt</value>
+  </data>
+  <data name="Completed_U" xml:space="preserve">
+    <value>Befejezve</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Minőség</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>Ellenőrzés...</value>
+  </data>
+  <data name="ReadyForDownload" xml:space="preserve">
+    <value>Készen áll a letöltésre</value>
+  </data>
+  <data name="Enqueued" xml:space="preserve">
+    <value>Sorbaállítva</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Sikertelen</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Szüneteltetve</value>
+  </data>
+  <data name="Playlist" xml:space="preserve">
+    <value>Lejátszási lista</value>
+  </data>
+  <data name="Converted" xml:space="preserve">
+    <value>Konvertált</value>
+  </data>
+  <data name="ConnectionError" xml:space="preserve">
+    <value>Kapcsolódási hiba</value>
+  </data>
+  <data name="UnsupportedFileFormat" xml:space="preserve">
+    <value>Nem támogatott fájlformátum</value>
+  </data>
+  <data name="VideoFileSizeExceedsLimits" xml:space="preserve">
+    <value>Fájlméret vagy videó hossza meghaladja az engedélyezett határokat</value>
+  </data>
+  <data name="FailedToGetResponseFromServer" xml:space="preserve">
+    <value>Nem érkezett válasz a regisztrációs szervertől</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Regisztráció</value>
+  </data>
+  <data name="WrongSubscriptionKey" xml:space="preserve">
+    <value>Rossz előfizetési kulcs, kérlek próbáld újra</value>
+  </data>
+  <data name="OriginalYoutube" xml:space="preserve">
+    <value>Eredeti YouTube</value>
+  </data>
+  <data name="CopyItToClipboard" xml:space="preserve">
+    <value>Másolás a vágólapra?</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Ugrás ide: {0}</value>
+  </data>
+  <data name="ShowSubscriptionRequestCode" xml:space="preserve">
+    <value>Előfizetési kérelem kódjának megjelenítése</value>
+  </data>
+  <data name="SubscriptionRequestCode" xml:space="preserve">
+    <value>Előfizetési kérelem kódja</value>
+  </data>
+  <data name="GetRocketSubsctiption" xml:space="preserve">
+    <value>Vásárolj Rocket előfizetést</value>
+  </data>
+  <data name="NewVersionIsAvailable" xml:space="preserve">
+    <value>Új verzió érhető el</value>
+  </data>
+  <data name="AudioQuality" xml:space="preserve">
+    <value>Minőség</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>Beállítás</value>
+  </data>
+  <data name="CreateDVD" xml:space="preserve">
+    <value>DVD létrehozása</value>
+  </data>
+  <data name="OccupiedSpace" xml:space="preserve">
+    <value>Foglalt terület:</value>
+  </data>
+  <data name="OoopsNoFiles" xml:space="preserve">
+    <value>Hoppá, nem adtál hozzá egyetlen fájlt sem</value>
+  </data>
+  <data name="OpenInExternalPlayer" xml:space="preserve">
+    <value>Megnyitás külső lejátszóban</value>
+  </data>
+  <data name="CodecPackDownloadedAndReady" xml:space="preserve">
+    <value>A kodekcsomag letöltődött és készen áll a telepítésre. Az összes DVDVideoSoft program most automatikusan bezáródik.</value>
+  </data>
+  <data name="EnterVerificationCodeAndRestart" xml:space="preserve">
+    <value>Add meg az ellenőrző kódot a böngésződben és indítsd újra a programot. Megnyitod most a böngészőt?</value>
+  </data>
+  <data name="DVDVideoCreation" xml:space="preserve">
+    <value>DVD videó létrehozása...</value>
+  </data>
+  <data name="NetFx35Install" xml:space="preserve">
+    <value>Az alkalmazás futtatásához szükség van a Microsoft .NET Framework 3.5-re. Szeretnéd ezt most telepíteni?</value>
+  </data>
+  <data name="TotalDuration" xml:space="preserve">
+    <value>Teljes időtartam</value>
+  </data>
+  <data name="Subtitles" xml:space="preserve">
+    <value>Feliratok</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Cím</value>
+  </data>
+  <data name="ShutDownWarning" xml:space="preserve">
+    <value>A számítógép {0} másodperc múlva leáll</value>
+  </data>
+  <data name="OriginalVideoName" xml:space="preserve">
+    <value>Eredeti_Videó_Neve</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Előrehaladottság</value>
+  </data>
+  <data name="PlayDownloadedAudioFile" xml:space="preserve">
+    <value>Letöltőtt audió fájl lejátszása</value>
+  </data>
+  <data name="PlayDownloadedVideo" xml:space="preserve">
+    <value>Letöltött videó lejátszása</value>
+  </data>
+  <data name="NotEnoughSpace" xml:space="preserve">
+    <value>Nincs elég hely a lemezen</value>
+  </data>
+  <data name="RequiresImapi" xml:space="preserve">
+    <value>Ehhez a beállításhoz szükséges a Microsoft Image Mastering API (IMAPI). Kérlek töltsd le, telepítsd és futtasd ismét ezt a beállítást. Szeretnéd most letölteni az IMAPI-t?</value>
+  </data>
+  <data name="CannotSaveVideo" xml:space="preserve">
+    <value>Videó mentése nem sikerült ide:</value>
+  </data>
+  <data name="EstimatedDvdSize" xml:space="preserve">
+    <value>Becsült kimeneti DVD méret (+/- 10%)</value>
+  </data>
+  <data name="ShowInFolder" xml:space="preserve">
+    <value>Megjelenítés mappában</value>
+  </data>
+  <data name="CannotConnectToTheServer" xml:space="preserve">
+    <value>Nem sikerült kapcsolódni a szerverhez</value>
+  </data>
+  <data name="CannotDownloadTheCodecPack" xml:space="preserve">
+    <value>Kodekcsomag letöltése nem lehetséges</value>
+  </data>
+  <data name="SomeCodecsAreMissing" xml:space="preserve">
+    <value>Néhány kodek hiányzik</value>
+  </data>
+  <data name="CheckPresetParameters" xml:space="preserve">
+    <value>Ellenőrizd a beállítási paramétereket</value>
+  </data>
+  <data name="UnsupportedCodec" xml:space="preserve">
+    <value>Nem támogatott kodek</value>
+  </data>
+  <data name="AboveNormalPriority" xml:space="preserve">
+    <value>Normál feletti</value>
+  </data>
+  <data name="BelowNormalPriority" xml:space="preserve">
+    <value>Normál alatti</value>
+  </data>
+  <data name="HighPriority" xml:space="preserve">
+    <value>Magas prioritás</value>
+  </data>
+  <data name="LowPriority" xml:space="preserve">
+    <value>Alacsony prioritás</value>
+  </data>
+  <data name="NormalPriority" xml:space="preserve">
+    <value>Normál prioritás</value>
+  </data>
+  <data name="RocketSubscriptionFeaturesAreActivated" xml:space="preserve">
+    <value>A Rocket előfizetés lehetőségei aktiválásra kerültek</value>
+  </data>
+  <data name="SetupInProgress" xml:space="preserve">
+    <value>A telepítés folyamatban van, kérlek várj...</value>
+  </data>
+  <data name="FilesNotFound" xml:space="preserve">
+    <value>Egyik fájl sem található a CUE listából</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>és</value>
+  </data>
+  <data name="SameAsInput" xml:space="preserve">
+    <value>Bemenettel megegyező</value>
+  </data>
+  <data name="AccelerateVideoEncodingWithFmtString" xml:space="preserve">
+    <value>Videókódolás felgyorsítása a {0} technológiával</value>
+  </data>
+  <data name="SaveVideo" xml:space="preserve">
+    <value>Videó mentése</value>
+  </data>
+  <data name="CantFindTags" xml:space="preserve">
+    <value>Ehhez a fájlhoz ne mtalálhatóak címkék</value>
+  </data>
+  <data name="DontAskAgain" xml:space="preserve">
+    <value>Ne kérdezze újra</value>
+  </data>
+  <data name="ClipboardIsInUse" xml:space="preserve">
+    <value>A vágólapot egy másik folyamat használja, kérlek próbáld meg később</value>
+  </data>
+  <data name="ReportHasBeenGenerated" xml:space="preserve">
+    <value>A jelentés sikeresen létrehozva.\nMegnyitod az archivált naplókat tartalmazó mappát?</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Jelentés létrehozása</value>
+  </data>
+  <data name="OpenLogFolder" xml:space="preserve">
+    <value>Napló mappa megnyitása</value>
+  </data>
+  <data name="AllDvsProgramsMustBeClosed" xml:space="preserve">
+    <value>Az összes DVDVideoSoft programot be kell zárni, mielőtt létrehoznád a jelentést.\nBezárod most őket és létrehozod a jelentést?</value>
+  </data>
+  <data name="JustSendTheLogs_template" xml:space="preserve">
+    <value>Küldd el a(z) "{0}" fájlt\na DVDVideoSoft támogató csapatnak</value>
+  </data>
+  <data name="TheLoggingLevelWillBeSetToTrace" xml:space="preserve">
+    <value>A naplózási szint NYOMKÖVETŐ módba vált. Folytatod?</value>
+  </data>
+  <data name="OriginalQualityDescription" xml:space="preserve">
+    <value>Bitráta, Mintavétel, Csatornák, mint a bemeneti fájlban</value>
+  </data>
+  <data name="ManualProxy" xml:space="preserve">
+    <value>Kézi proxybeállítások</value>
+  </data>
+  <data name="NoProxy" xml:space="preserve">
+    <value>Nincs proxy</value>
+  </data>
+  <data name="SystemProxy" xml:space="preserve">
+    <value>Rendszerproxy beállítások használata</value>
+  </data>
+  <data name="DirectoryNotWritable" xml:space="preserve">
+    <value>A fájl nem menthető a kimeneti mappába. Kérlek válassz egy másikat.</value>
+  </data>
+  <data name="AVGIsRunningWarning" xml:space="preserve">
+    <value>AVG Accelerator fut a számítógépeden, ami néha megakasztja az internetkapcsolatot. \n\nA DVDVideoSoft eszközök saját gyorsítást használnak és nincs szükségük az AVG Acceleratorra. Azt ajánljuk, hogy kapcsold ki.\n\nItt elolvashatod, hogyan is kapcsolhatod ki az AVG Acceleratort:</value>
+  </data>
+  <data name="TheFieldCannotBeBlank" xml:space="preserve">
+    <value>Ez a mező nem lehet üres</value>
+  </data>
+  <data name="ConvertWith" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AddProgrammToContextMenuWindows" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CreateM3Uplaylist" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HD_Video" xml:space="preserve">
+    <value>Yüksek Çözünürlüklü Video</value>
+  </data>
+  <data name="HQ_Video" xml:space="preserve">
+    <value>Yüksek Kaliteli Video</value>
+  </data>
+  <data name="Mono" xml:space="preserve">
+    <value>Tek Kanal</value>
+  </data>
+  <data name="NotURLToDownloadVideoFrom" xml:space="preserve">
+    <value>İndirilebilecek URL yok!</value>
+  </data>
+  <data name="NQ_Video" xml:space="preserve">
+    <value>Normal Kalite Video</value>
+  </data>
+  <data name="Stereo" xml:space="preserve">
+    <value>Stereo</value>
+  </data>
+  <data name="VideoDownloading" xml:space="preserve">
+    <value>Video İndiriliyor...</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="OutputFolder" xml:space="preserve">
+    <value>Kayıt klasörü...</value>
+  </data>
+  <data name="ProcessComplete" xml:space="preserve">
+    <value>İşlem tamamlandı</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>Bağlantı Yok. İnternet bağlantınızı kontrol edin.</value>
+  </data>
+  <data name="ProcessStopped" xml:space="preserve">
+    <value>İşlem durduruldu</value>
+  </data>
+  <data name="DownloadingCompleted" xml:space="preserve">
+    <value>İndirme tamamlandı</value>
+  </data>
+  <data name="DownloadingCompleteSuccesful" xml:space="preserve">
+    <value>İndirme başarıyla tamamlandı</value>
+  </data>
+  <data name="SomeLinksNotDownloaded" xml:space="preserve">
+    <value>Program bazı linkleri indiremedi</value>
+  </data>
+  <data name="WantSolution" xml:space="preserve">
+    <value>Çözüm bulmak istiyormusunuz?</value>
+  </data>
+  <data name="CancelProcess" xml:space="preserve">
+    <value>İşlem iptal ediliyor...</value>
+  </data>
+  <data name="CannotReadFile" xml:space="preserve">
+    <value>Bu dosya okunamadı, hatalı dosya veya desteklenmeyen biçim olabilir.</value>
+  </data>
+  <data name="ConversionError" xml:space="preserve">
+    <value>Dönüştürme hatası</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="FileFormatNotSupported" xml:space="preserve">
+    <value>Bu dosya formatı desteklenmiyor</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="LinkNotContainVideo" xml:space="preserve">
+    <value>Link video içermiyor</value>
+  </data>
+  <data name="NotYouTubeLink" xml:space="preserve">
+    <value>Bu link YouTube Linki değildir</value>
+  </data>
+  <data name="NoVideoData" xml:space="preserve">
+    <value>Video datası yok</value>
+  </data>
+  <data name="ReinstallProgramm" xml:space="preserve">
+    <value>Programı tekrar yükle</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>TAMAM</value>
+  </data>
+  <data name="PleaseEnterTag" xml:space="preserve">
+    <value>Videonuz için en az bir etiket girin</value>
+  </data>
+  <data name="FileIsFailed" xml:space="preserve">
+    <value>file(s) is failed.</value>
+  </data>
+  <data name="FileUploading" xml:space="preserve">
+    <value>Dosya yükleniyor...</value>
+  </data>
+  <data name="InvalidLoginPassword" xml:space="preserve">
+    <value>Hatalı kullanıcı/şifre</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>İşlem başarıyla tamamlandı</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Lütfen, dosya seçin</value>
+  </data>
+  <data name="WrongTag" xml:space="preserve">
+    <value>Her etikette en az iki sayı veya rakam olmalıdır.</value>
+  </data>
+  <data name="ConversionCompleteSuccessful" xml:space="preserve">
+    <value>Dönüştürme başarıyla tamamlandı</value>
+  </data>
+  <data name="OutputFileAlreadyExists" xml:space="preserve">
+    <value>Kayıt klasörü mevcut, değiştirilsin mi?</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Onayla</value>
+  </data>
+  <data name="OutputFolderNotExist" xml:space="preserve">
+    <value>Kayıt dosyası mevcut değil</value>
+  </data>
+  <data name="OutputPathEmpty" xml:space="preserve">
+    <value>Kayıt yolu boş</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>den</value>
+  </data>
+  <data name="VideoAlreadyInList" xml:space="preserve">
+    <value>Bu video indirilme listesinde mevcut.</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>videolar</value>
+  </data>
+  <data name="CannotAccessYouTube" xml:space="preserve">
+    <value>Program yönetmek için YouTube'a erişemedi</value>
+  </data>
+  <data name="CannotResolveYouTubeLink" xml:space="preserve">
+    <value>Program bu YouTube linkini çözemedi. Çözüm bulmak istermisiniz?</value>
+  </data>
+  <data name="ListNotLoaded" xml:space="preserve">
+    <value>Liste yüklenemedi</value>
+  </data>
+  <data name="FilesNotOpened" xml:space="preserve">
+    <value>Bazı dosyalar açılamadı</value>
+  </data>
+  <data name="ListNotSaved" xml:space="preserve">
+    <value>Liste kaydedilemedi.</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Devam?</value>
+  </data>
+  <data name="BadCharacters" xml:space="preserve">
+    <value>Dosya adı şu karakterleri içeremez:</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Yeni Klasör</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Adlandır</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>mevcuttur,</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>gereklidir.</value>
+  </data>
+  <data name="ThereIsNewVersion" xml:space="preserve">
+    <value>Yeni sürüm mevcut. Şimdi indirip kurulsun mu?</value>
+  </data>
+  <data name="VersionIsUpToDate" xml:space="preserve">
+    <value>Kullandığınız versiyon güncel.</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Erişim engellendi</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>İşleniyor</value>
+  </data>
+  <data name="ProcessingFile" xml:space="preserve">
+    <value>Dosya dönüştürülüyor...</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>tamamlandı</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>İnternet bağlantınızı, güvenlik duvarınızı veya proxy ayarlarınızı kontrol edin.</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>iptal edildi</value>
+  </data>
+  <data name="FileTooLarge" xml:space="preserve">
+    <value>Dosya çok büyük</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="UploadFailed" xml:space="preserve">
+    <value>yükleme başarısız</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Şuanda:</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Toplam:</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_InclSub" xml:space="preserve">
+    <value>Alt klasörler dahil</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_Title" xml:space="preserve">
+    <value>Dosya ve Klasörlere Gözat</value>
+  </data>
+  <data name="BrowseForFilesAndFolder_MainLabel" xml:space="preserve">
+    <value>Dosyalar ve Klasörler:</value>
+  </data>
+  <data name="TagLengthCannotBe" xml:space="preserve">
+    <value>Etiket 30 karakterden uzun olamaz</value>
+  </data>
+  <data name="ATagCannotContain" xml:space="preserve">
+    <value>Etiket adı virgül içeremez</value>
+  </data>
+  <data name="TagCreationHints" xml:space="preserve">
+    <value>Etiket oluşturma ipuçları:</value>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="Public" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="OpenDlgImageFilter" xml:space="preserve">
+    <value>İmaj Dosyaları</value>
+  </data>
+  <data name="Economy" xml:space="preserve">
+    <value>Tasarruf</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>Standart</value>
+  </data>
+  <data name="ConversionProgress" xml:space="preserve">
+    <value>Dönüştürme sürüyor</value>
+  </data>
+  <data name="ConversionFailed" xml:space="preserve">
+    <value>Dönüştürme başarısız</value>
+  </data>
+  <data name="SomeFilesWereNotProcessed" xml:space="preserve">
+    <value>Bazı dosyalar işlenemedi</value>
+  </data>
+  <data name="DontAskAgain_EnableInOptions" xml:space="preserve">
+    <value>Tekrar sorma. (Seçeneklerde bu soruyu etkinleştirin)</value>
+  </data>
+  <data name="VideoMaybePartOfPlaylist" xml:space="preserve">
+    <value>Bu video çalma listesi parçası olabilir. Bütün çalma listesini indirmek istermisiniz?</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="URLNotContainYTVideos" xml:space="preserve">
+    <value>Bu URL YouTube videosu içermiyor</value>
+  </data>
+  <data name="SomeCodecsAreMissingTheyWillBeDownloaded" xml:space="preserve">
+    <value>Bazı codec bileşenleri hatalı, devam etmek ister misiniz?</value>
+  </data>
+  <data name="CodecsDownload" xml:space="preserve">
+    <value>Codec İndir</value>
+  </data>
+  <data name="Formats" xml:space="preserve">
+    <value>Biçimler</value>
+  </data>
+  <data name="ShowAnHTMLExampleFileAfterConversion" xml:space="preserve">
+    <value>Dönüştürmeden sonra örnek HTML göster</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Oynatıcı...</value>
+  </data>
+  <data name="UnableCreateOnCD" xml:space="preserve">
+    <value>CD/DVD üzerinde dosya oluşturulamadı.</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Ses</value>
+  </data>
+  <data name="PleaseInstallTheLatest" xml:space="preserve">
+    <value>Lütfen son versiyonu bizim websitemizden indirin:</value>
+  </data>
+  <data name="RequiredModuleMissing" xml:space="preserve">
+    <value>Program çalışmasına devam edemiyor, gerekli olan modül hatalı</value>
+  </data>
+  <data name="DragAndDropFilesHere" xml:space="preserve">
+    <value>Dosyaları sürükle ve bırak</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Yürüt</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Bugüne kadar</value>
+  </data>
+  <data name="PlayerColor" xml:space="preserve">
+    <value>Yürütücü rengi:</value>
+  </data>
+  <data name="PlayerImageLabel" xml:space="preserve">
+    <value>Yürütücü:</value>
+  </data>
+  <data name="PlayerType" xml:space="preserve">
+    <value>Yürütücü Tipi:</value>
+  </data>
+  <data name="FlashPlayer" xml:space="preserve">
+    <value>Flash Player</value>
+  </data>
+  <data name="DownloadingInProgress" xml:space="preserve">
+    <value>İndirme devam ediyor, lütfen bekleyin...</value>
+  </data>
+  <data name="DownloadFailed" xml:space="preserve">
+    <value>İndirme başarısız</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Daha fazla bilgi</value>
+  </data>
+  <data name="Preset" xml:space="preserve">
+    <value>Ön ayar</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Kurulum</value>
+  </data>
+  <data name="PlayStop" xml:space="preserve">
+    <value>Yürüt / Durdur</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="PleaseAddAudioFiles" xml:space="preserve">
+    <value>Lütfen ses dosyası ekleyin</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>yıl</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Satın Al</value>
+  </data>
+  <data name="FailedToConnectToTheInternet" xml:space="preserve">
+    <value>İnternet bağlantısı yapılamadı</value>
+  </data>
+  <data name="FailedToSaveLicenseFile" xml:space="preserve">
+    <value>Lisans dosyası kaydedilemedi</value>
+  </data>
+  <data name="LicenseFileCorrupted" xml:space="preserve">
+    <value>Lisans dosyası bozuk</value>
+  </data>
+  <data name="InvalidSubscriptionKey" xml:space="preserve">
+    <value>Hatalı üyelik anahtarı, lütfen tekrar deneyin</value>
+  </data>
+  <data name="LicenseFileNotFound" xml:space="preserve">
+    <value>Lisans dosyası bulunamadı</value>
+  </data>
+  <data name="LicenseHasExpired" xml:space="preserve">
+    <value>Lisans süresi doldu</value>
+  </data>
+  <data name="ReadHttpResponseFailed" xml:space="preserve">
+    <value>Kayıt sunucusundan yanıt alınamadı</value>
+  </data>
+  <data name="RegistrationFailed" xml:space="preserve">
+    <value>Kayıt başarısız</value>
+  </data>
+  <data name="RegistrationIsComplete" xml:space="preserve">
+    <value>Kayıt tamamlandı</value>
+  </data>
+  <data name="ThankYouForRegistering" xml:space="preserve">
+    <value>Kayıt olduğunuz için teşekkürler</value>
+  </data>
+  <data name="ThisMachineIsNotRegistered" xml:space="preserve">
+    <value>Bu makine, bu abonelik için kayıtlı değil</value>
+  </data>
+  <data name="AnErrorOccured" xml:space="preserve">
+    <value>Bir hata oluştu</value>
+  </data>
+  <data name="Completed_U" xml:space="preserve">
+    <value>Tamamlandı</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Kalite</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>Denetleniyor...</value>
+  </data>
+  <data name="ReadyForDownload" xml:space="preserve">
+    <value>İndirmeye hazır</value>
+  </data>
+  <data name="Enqueued" xml:space="preserve">
+    <value>Kuyruğa alındı</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Başarısız</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Durduruldu</value>
+  </data>
+  <data name="Playlist" xml:space="preserve">
+    <value>Çalma Listesi</value>
+  </data>
+  <data name="Converted" xml:space="preserve">
+    <value>Dönüştürüldü</value>
+  </data>
+  <data name="ConnectionError" xml:space="preserve">
+    <value>Bağlantı hatası</value>
+  </data>
+  <data name="UnsupportedFileFormat" xml:space="preserve">
+    <value>Desteklenmeyen dosya biçimi</value>
+  </data>
+  <data name="VideoFileSizeExceedsLimits" xml:space="preserve">
+    <value>Dosya boyutu veya video süresi kabul edilebilir limitler dışında</value>
+  </data>
+  <data name="FailedToGetResponseFromServer" xml:space="preserve">
+    <value>Kayıt sunucusundan yanıt alınamadı</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Kayıt</value>
+  </data>
+  <data name="WrongSubscriptionKey" xml:space="preserve">
+    <value>Hatalı üyelik anahtarı, lütfen tekrar deneyin</value>
+  </data>
+  <data name="OriginalYoutube" xml:space="preserve">
+    <value>Orjinal YouTube</value>
+  </data>
+  <data name="CopyItToClipboard" xml:space="preserve">
+    <value>Panoya Kopyala?</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Git {0}</value>
+  </data>
+  <data name="ShowSubscriptionRequestCode" xml:space="preserve">
+    <value>Abonelik talep kodu göster</value>
+  </data>
+  <data name="SubscriptionRequestCode" xml:space="preserve">
+    <value>Abonelik talep kodu:</value>
+  </data>
+  <data name="GetRocketSubsctiption" xml:space="preserve">
+    <value>Rocket Abonelik Alın</value>
+  </data>
+  <data name="NewVersionIsAvailable" xml:space="preserve">
+    <value>Yeni versiyon var</value>
+  </data>
+  <data name="AudioQuality" xml:space="preserve">
+    <value>Kalite</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>Ön ayar</value>
+  </data>
+  <data name="CreateDVD" xml:space="preserve">
+    <value>DVD Oluştu</value>
+  </data>
+  <data name="OccupiedSpace" xml:space="preserve">
+    <value>Kullanılacak Alan:</value>
+  </data>
+  <data name="OoopsNoFiles" xml:space="preserve">
+    <value>Ooops, hiç bir dosya eklenmedi</value>
+  </data>
+  <data name="OpenInExternalPlayer" xml:space="preserve">
+    <value>Harici yürütücüde aç</value>
+  </data>
+  <data name="CodecPackDownloadedAndReady" xml:space="preserve">
+    <value>Codec paketi indirildi ve yükleme hazır. Tüm DVDVideoSoft programları otomatik olarka kapanacak.</value>
+  </data>
+  <data name="EnterVerificationCodeAndRestart" xml:space="preserve">
+    <value>Doğrulama kodunu tarayıcıdan girin ve programı tekrar başlatın. Şimdi tarayıcı açılsın mı?</value>
+  </data>
+  <data name="DVDVideoCreation" xml:space="preserve">
+    <value>DVD Video oluşturuluyor...</value>
+  </data>
+  <data name="NetFx35Install" xml:space="preserve">
+    <value>Bu uygulama Microsoft .Net Framework 3.5 gerektiriyor. Şimdi yüklemek istermisiniz?</value>
+  </data>
+  <data name="TotalDuration" xml:space="preserve">
+    <value>Toplam Süre</value>
+  </data>
+  <data name="Subtitles" xml:space="preserve">
+    <value>Altyazılar</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ShutDownWarning" xml:space="preserve">
+    <value>Bilgisayarınız {0} saniye sonra kapatılacak</value>
+  </data>
+  <data name="OriginalVideoName" xml:space="preserve">
+    <value>Orjinal_Video_Adı</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>İlerleme</value>
+  </data>
+  <data name="PlayDownloadedAudioFile" xml:space="preserve">
+    <value>İndirilen ses dosyasını yürüt</value>
+  </data>
+  <data name="PlayDownloadedVideo" xml:space="preserve">
+    <value>İndirilen videoyu yürüt</value>
+  </data>
+  <data name="NotEnoughSpace" xml:space="preserve">
+    <value>Diskte boş alan yok</value>
+  </data>
+  <data name="RequiresImapi" xml:space="preserve">
+    <value>Kurulum Microsof Image Mastering API (IMAPI) gerektiriyor. Lütfen indirip kurunuz, sonrasında bu kurulumu tekrar çalıştırınız. Şimdi IMAPI yüklemek istermisiniz?</value>
+  </data>
+  <data name="CannotSaveVideo" xml:space="preserve">
+    <value>Video şu dosyaya kaydedilemedi:</value>
+  </data>
+  <data name="EstimatedDvdSize" xml:space="preserve">
+    <value>Tahmini DVD kayıt boyutu (+/- %10)</value>
+  </data>
+  <data name="ShowInFolder" xml:space="preserve">
+    <value>Klasörde göster</value>
+  </data>
+  <data name="CannotConnectToTheServer" xml:space="preserve">
+    <value>Sunucuya bağlanılamadı</value>
+  </data>
+  <data name="CannotDownloadTheCodecPack" xml:space="preserve">
+    <value>Codec paketi indirilemedi</value>
+  </data>
+  <data name="SomeCodecsAreMissing" xml:space="preserve">
+    <value>Bazı codecler hatalı</value>
+  </data>
+  <data name="CheckPresetParameters" xml:space="preserve">
+    <value>Ön ayar parametrelerini denetleyin</value>
+  </data>
+  <data name="UnsupportedCodec" xml:space="preserve">
+    <value>Desteklenmeyen codec</value>
+  </data>
+  <data name="AboveNormalPriority" xml:space="preserve">
+    <value>Normal Üstü</value>
+  </data>
+  <data name="BelowNormalPriority" xml:space="preserve">
+    <value>Normalin altı</value>
+  </data>
+  <data name="HighPriority" xml:space="preserve">
+    <value>Yüksek öncelik</value>
+  </data>
+  <data name="LowPriority" xml:space="preserve">
+    <value>Düşük öncelik</value>
+  </data>
+  <data name="NormalPriority" xml:space="preserve">
+    <value>Normal Öncelik</value>
+  </data>
+  <data name="RocketSubscriptionFeaturesAreActivated" xml:space="preserve">
+    <value>Rocket Abonelik özelliği aktif edildi</value>
+  </data>
+  <data name="SetupInProgress" xml:space="preserve">
+    <value>Kurulum devam ediyor, lütfen bekleyin...</value>
+  </data>
+  <data name="FilesNotFound" xml:space="preserve">
+    <value>CUE listesinden hiçbir dosya bulunamadı</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="SameAsInput" xml:space="preserve">
+    <value>Giriş aynı</value>
+  </data>
+  <data name="AccelerateVideoEncodingWithFmtString" xml:space="preserve">
+    <value>{0} Teknolojisi ile video kodlamayı hızlandırın</value>
+  </data>
+  <data name="SaveVideo" xml:space="preserve">
+    <value>Video kaydet</value>
+  </data>
+  <data name="CantFindTags" xml:space="preserve">
+    <value>Dosyada herhangi bir etiket bulunamadı</value>
+  </data>
+  <data name="DontAskAgain" xml:space="preserve">
+    <value>Tekrar sorma</value>
+  </data>
+  <data name="ClipboardIsInUse" xml:space="preserve">
+    <value>Pano başka bir işlem tarafından kullanılıyor, lütfen sonra tekrar deneyin.</value>
+  </data>
+  <data name="ReportHasBeenGenerated" xml:space="preserve">
+    <value>Rapor başarıyla oluşturuldu.\nArşiv günlüğü klasörü şimdi açılsın mı?</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Rapor Oluştu</value>
+  </data>
+  <data name="OpenLogFolder" xml:space="preserve">
+    <value>Rapor Dosyalarını Aç</value>
+  </data>
+  <data name="AllDvsProgramsMustBeClosed" xml:space="preserve">
+    <value>Rapor oluşturulmadan önce tüm DVDVideoSoft programları kapatılmalıdır.\n{0} programı şimdi kapatılıp rapor oluşturulsun mu?</value>
+  </data>
+  <data name="JustSendTheLogs_template" xml:space="preserve">
+    <value>"{0}" adlı dosyayı\nDVDVideoSoft destek ekibine gönder</value>
+  </data>
+  <data name="TheLoggingLevelWillBeSetToTrace" xml:space="preserve">
+    <value>Günlük seviyesi TRACE olarak ayarlanacak. Devam edilsin mi?</value>
+  </data>
+  <data name="OriginalQualityDescription" xml:space="preserve">
+    <value>Bit hızı, Örnek hız, Dosyadaki Kanal(lar)</value>
+  </data>
+  <data name="ManualProxy" xml:space="preserve">
+    <value>Vekil sunucuyu elle ayarla</value>
+  </data>
+  <data name="NoProxy" xml:space="preserve">
+    <value>Vekil sunucu yok</value>
+  </data>
+  <data name="SystemProxy" xml:space="preserve">
+    <value>Sistem vekil sunucu ayarlarını kullan</value>
+  </data>
+  <data name="DirectoryNotWritable" xml:space="preserve">
+    <value>Dosya çıktı klasörüne kaydedilemiyor. Lütfen başka bir klasör seçin.</value>
+  </data>
+  <data name="AVGIsRunningWarning" xml:space="preserve">
+    <value>Bilgisayarınızda AVG Accelerator programı yürütülüyor. Bu ara sıra internet bağlantısını dondurur.\n\nDVDVideoSoft araçları kendi hızlandırıcısını kullanır ve AVG Accelerator'a ihtiyaç duymaz. Bu programı kapatmanızı tavsiye ediyoruz. \n\nAVG Accelerator'ı nasıl kapatacağınızı buradan öğrenin:</value>
+  </data>
+  <data name="TheFieldCannotBeBlank" xml:space="preserve">
+    <value>Bu boşluk boş bırakılamaz</value>
+  </data>
+  <data name="ConvertWith" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AddProgrammToContextMenuWindows" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CreateM3Uplaylist" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

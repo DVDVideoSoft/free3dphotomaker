@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HD_Video" xml:space="preserve">
+    <value>Υψηλής Ευκρίνιας Βίντεο</value>
+  </data>
+  <data name="HQ_Video" xml:space="preserve">
+    <value>Υψηλή ποιότητα βίντεο</value>
+  </data>
+  <data name="Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="NotURLToDownloadVideoFrom" xml:space="preserve">
+    <value>Δεν υπάρχει διεύθυνση URL, με την οποία μπορεί να γίνει λήψη</value>
+  </data>
+  <data name="NQ_Video" xml:space="preserve">
+    <value>Κανονική ποιότητα βίντεο</value>
+  </data>
+  <data name="Stereo" xml:space="preserve">
+    <value>Στερεοφωνικό</value>
+  </data>
+  <data name="VideoDownloading" xml:space="preserve">
+    <value>Γίνεται λήψη βίντεο...</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Κλείσιμο</value>
+  </data>
+  <data name="OutputFolder" xml:space="preserve">
+    <value>Φάκελος εξόδου...</value>
+  </data>
+  <data name="ProcessComplete" xml:space="preserve">
+    <value>Η διαδικασία ολοκληρώθηκε</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Διακοπή</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>Δεν υπάρχει σύνδεση. Ελέγξτε τη σύνδεση στο Internet.</value>
+  </data>
+  <data name="ProcessStopped" xml:space="preserve">
+    <value>Η διαδικασία διακόπηκε</value>
+  </data>
+  <data name="DownloadingCompleted" xml:space="preserve">
+    <value>Η λήψη ολοκληρώθηκε</value>
+  </data>
+  <data name="DownloadingCompleteSuccesful" xml:space="preserve">
+    <value>Η λήψη ολοκληρώθηκε με επιτυχία</value>
+  </data>
+  <data name="SomeLinksNotDownloaded" xml:space="preserve">
+    <value>Το πρόγραμμα δεν κατέβασε κάποιες διευθύνσεις</value>
+  </data>
+  <data name="WantSolution" xml:space="preserve">
+    <value>Θέλετε να βρούμε μια λύση;</value>
+  </data>
+  <data name="CancelProcess" xml:space="preserve">
+    <value>Ακύρωση διαδικασίας...</value>
+  </data>
+  <data name="CannotReadFile" xml:space="preserve">
+    <value>Το πρόγραμμα δεν μπορεί να διαβάσει αυτό το αρχείο. Δεν είναι ένα έγκυρο αρχείο ή η μορφή δεν υποστηρίζεται αυτήν τη στιγμή.</value>
+  </data>
+  <data name="ConversionError" xml:space="preserve">
+    <value>Σφάλμα μετατροπής</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="FileFormatNotSupported" xml:space="preserve">
+    <value>Αυτή η μορφή αρχείου δεν υποστηρίζεται</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="LinkNotContainVideo" xml:space="preserve">
+    <value>Η σύνδεση δεν περιέχει βίντεο</value>
+  </data>
+  <data name="NotYouTubeLink" xml:space="preserve">
+    <value>Αυτη δεν είναι μια διεύθυνση URL YouTube</value>
+  </data>
+  <data name="NoVideoData" xml:space="preserve">
+    <value>Δεν υπάρχουν δεδομένα βίντεο</value>
+  </data>
+  <data name="ReinstallProgramm" xml:space="preserve">
+    <value>Εγκαταστήστε ξανά το πρόγραμμα</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Άκυρο</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PleaseEnterTag" xml:space="preserve">
+    <value>Πληκτρολογήστε τουλάχιστον μία ετικέτα για το βίντεό σας</value>
+  </data>
+  <data name="FileIsFailed" xml:space="preserve">
+    <value>Απέτυχε η αρχείο(α).</value>
+  </data>
+  <data name="FileUploading" xml:space="preserve">
+    <value>Αποστολή αρχείου...</value>
+  </data>
+  <data name="InvalidLoginPassword" xml:space="preserve">
+    <value>Μη έγκυρη σύνδεση/κωδικός πρόσβασης</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>Η διαδικασία ολοκληρώθηκε με επιτυχία</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Παρακαλούμε, επιλέξτε ένα αρχείο</value>
+  </data>
+  <data name="WrongTag" xml:space="preserve">
+    <value>Κάθε ετικέτα πρέπει να είναι τουλάχιστον δύο γραμμάτων ή/και αριθμών.</value>
+  </data>
+  <data name="ConversionCompleteSuccessful" xml:space="preserve">
+    <value>Μετατροπή ολοκληρώθηκε με επιτυχία</value>
+  </data>
+  <data name="OutputFileAlreadyExists" xml:space="preserve">
+    <value>Υπάρχει ήδη το αρχείο εξόδου. Θέλετε να το αντικαταστήσετε;</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Επιβεβαίωση</value>
+  </data>
+  <data name="OutputFolderNotExist" xml:space="preserve">
+    <value>Δεν υπάρχει ο φάκελος εξόδου</value>
+  </data>
+  <data name="OutputPathEmpty" xml:space="preserve">
+    <value>Η διαδρομή εξόδου είναι κενή</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>του</value>
+  </data>
+  <data name="VideoAlreadyInList" xml:space="preserve">
+    <value>Αυτό το βίντεο είναι ήδη στη λίστα το στοιχείο λήψης.</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>βίντεο</value>
+  </data>
+  <data name="CannotAccessYouTube" xml:space="preserve">
+    <value>Το πρόγραμμα δεν κατάφερε να αποκτήσει πρόσβαση YouTube</value>
+  </data>
+  <data name="CannotResolveYouTubeLink" xml:space="preserve">
+    <value>Το πρόγραμμα δεν κατάφερε να επιλύσει αυτό το link YouTube. Θέλετε να βρούμε μια λύση;</value>
+  </data>
+  <data name="ListNotLoaded" xml:space="preserve">
+    <value>Ο κατάλογος δεν έχει φορτωθεί</value>
+  </data>
+  <data name="FilesNotOpened" xml:space="preserve">
+    <value>Σε ορισμένα αρχεία δεν ήταν δυνατό το άνοιγμα</value>
+  </data>
+  <data name="ListNotSaved" xml:space="preserve">
+    <value>Ο κατάλογος δεν αποθηκεύεται</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Θέλετε να συνεχίσετε;</value>
+  </data>
+  <data name="BadCharacters" xml:space="preserve">
+    <value>Ένα όνομα αρχείου δεν είναι δυνατό να περιέχει κανέναν από τους ακόλουθους χαρακτήρες:</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Νέος φάκελος</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Μετονομασία</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>είναι διαθέσιμες,</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>απαιτούνται.</value>
+  </data>
+  <data name="ThereIsNewVersion" xml:space="preserve">
+    <value>Υπάρχει διαθέσιμη μια νέα έκδοση. Θέλετε να τη κάνετε λήψη και να τη εγκαταστήσετε τώρα;</value>
+  </data>
+  <data name="VersionIsUpToDate" xml:space="preserve">
+    <value>Η έκδοση σας είναι ενημερωμένη.</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Δεν επιτρέπεται η πρόσβαση</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Επεξεργάζεται</value>
+  </data>
+  <data name="ProcessingFile" xml:space="preserve">
+    <value>Μετατροπή αρχείου...</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>ολοκληρώθηκε</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Βίντεο</value>
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>Ελέγξτε τις ρυθμίσεις σύνδεσης internet, διακομιστή μεσολάβησης ή τείχους προστασίας.</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>ακυρώθηκε</value>
+  </data>
+  <data name="FileTooLarge" xml:space="preserve">
+    <value>Το αρχείο είναι υπερβολικά μεγάλο</value>
+  </data>
+  <data name="Uploading" xml:space="preserve">
+    <value>Αποστολή...</value>
+  </data>
+  <data name="UploadFailed" xml:space="preserve">
+    <value>η αποστολή απέτυχε</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Τρέχον:</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Σύνολο:</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_InclSub" xml:space="preserve">
+    <value>Συμπεριλάβετε υποφακέλους</value>
+  </data>
+  <data name="BrowseForFilesAndFolders_Title" xml:space="preserve">
+    <value>Αναζήτηση αρχείων και φακέλων</value>
+  </data>
+  <data name="BrowseForFilesAndFolder_MainLabel" xml:space="preserve">
+    <value>Αρχεία και φάκελοι:</value>
+  </data>
+  <data name="TagLengthCannotBe" xml:space="preserve">
+    <value>Το μήκος ετικέτας δεν μπορεί να είναι πάνω από 30 χαρακτήρες</value>
+  </data>
+  <data name="ATagCannotContain" xml:space="preserve">
+    <value>Ένα όνομα tag δεν μπορεί να περιέχει κόμμα</value>
+  </data>
+  <data name="TagCreationHints" xml:space="preserve">
+    <value>Συμβουλές για δημιουργία ετικέτας:</value>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>Ιδιωτικό</value>
+  </data>
+  <data name="Public" xml:space="preserve">
+    <value>Κοινό</value>
+  </data>
+  <data name="OpenDlgImageFilter" xml:space="preserve">
+    <value>Αρχεία εικόνας</value>
+  </data>
+  <data name="Economy" xml:space="preserve">
+    <value>Οικονομικότερη</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>Υψηλό</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>Κανονικό</value>
+  </data>
+  <data name="ConversionProgress" xml:space="preserve">
+    <value>Πρόοδος μετατροπής</value>
+  </data>
+  <data name="ConversionFailed" xml:space="preserve">
+    <value>Η μετατροπή απέτυχε</value>
+  </data>
+  <data name="SomeFilesWereNotProcessed" xml:space="preserve">
+    <value>Σε ορισμένα αρχεία δεν ήταν δυνατή η επεξεργασία</value>
+  </data>
+  <data name="DontAskAgain_EnableInOptions" xml:space="preserve">
+    <value>Μην ξαναρωτήσεις. (Ενεργοποιήστε το θέμα αυτό στις επιλογές)</value>
+  </data>
+  <data name="VideoMaybePartOfPlaylist" xml:space="preserve">
+    <value>Αυτό το βίντεο μπορεί να είναι μέρος της μια λίστα αναπαραγωγής. Θέλετε να προσπαθήσετε να κάνετε λήψη ολόκληρη λίστα αναπαραγωγής;</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="URLNotContainYTVideos" xml:space="preserve">
+    <value>Αυτή η διεύθυνση URL δεν περιέχει βίντεο από το YouTube</value>
+  </data>
+  <data name="SomeCodecsAreMissingTheyWillBeDownloaded" xml:space="preserve">
+    <value>Ορισμένοι κωδικοποιητές λείπουν, θα γίνει η λήψη τους. Θέλετε να συνεχίσετε;</value>
+  </data>
+  <data name="CodecsDownload" xml:space="preserve">
+    <value>Λήψη κωδικοποιητών</value>
+  </data>
+  <data name="Formats" xml:space="preserve">
+    <value>Μορφές</value>
+  </data>
+  <data name="ShowAnHTMLExampleFileAfterConversion" xml:space="preserve">
+    <value>Εμφάνιση HTML παράδειγμα για το αρχείο μετά τη μετατροπή</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player...</value>
+  </data>
+  <data name="UnableCreateOnCD" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία ενός αρχείου σε ένα δίσκο CD/DVD.</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Ήχος</value>
+  </data>
+  <data name="PleaseInstallTheLatest" xml:space="preserve">
+    <value>Παρακαλώ εγκαταστήστε την τελευταία έκδοση απευθείας από την ιστοσελίδα μας:</value>
+  </data>
+  <data name="RequiredModuleMissing" xml:space="preserve">
+    <value>Το πρόγραμμα δεν είναι δυνατό να συνεχίσει να λειτουργεί, διότι λείπει μια απαιτούμενη ενότητα</value>
+  </data>
+  <data name="DragAndDropFilesHere" xml:space="preserve">
+    <value>Σύρετε και να αποθέσετε αρχεία εδώ</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Αναπαραγωγή</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Επιλογές</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Ενημερωμένο</value>
+  </data>
+  <data name="PlayerColor" xml:space="preserve">
+    <value>Χρώμα Player:</value>
+  </data>
+  <data name="PlayerImageLabel" xml:space="preserve">
+    <value>Player:</value>
+  </data>
+  <data name="PlayerType" xml:space="preserve">
+    <value>Τύπος Player:</value>
+  </data>
+  <data name="FlashPlayer" xml:space="preserve">
+    <value>Flash player</value>
+  </data>
+  <data name="DownloadingInProgress" xml:space="preserve">
+    <value>Λήψη βρίσκεται σε εξέλιξη, παρακαλώ περιμένετε...</value>
+  </data>
+  <data name="DownloadFailed" xml:space="preserve">
+    <value>Η λήψη απέτυχε</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Μάθε περισσότερα</value>
+  </data>
+  <data name="Preset" xml:space="preserve">
+    <value>Προκαθορισμένη ρύθμιση</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Εγκατάσταση</value>
+  </data>
+  <data name="PlayStop" xml:space="preserve">
+    <value>Αναπαραγωγή \ Διακοπή</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="PleaseAddAudioFiles" xml:space="preserve">
+    <value>Προσθέστε αρχεία ήχουΠροσθέστε αρχεία ήχου</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>έτος</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Αγοράστε τώρα</value>
+  </data>
+  <data name="FailedToConnectToTheInternet" xml:space="preserve">
+    <value>Απέτυχε η σύνδεση στο Internet</value>
+  </data>
+  <data name="FailedToSaveLicenseFile" xml:space="preserve">
+    <value>Απέτυχε να αποθηκεύσετε το αρχείο άδειας χρήσης</value>
+  </data>
+  <data name="LicenseFileCorrupted" xml:space="preserve">
+    <value>Κατεστραμμένο αρχείο άδειας χρήσης</value>
+  </data>
+  <data name="InvalidSubscriptionKey" xml:space="preserve">
+    <value>Λανθασμένο κλειδί εγγραφής, παρακαλώ δοκιμάστε ξανά</value>
+  </data>
+  <data name="LicenseFileNotFound" xml:space="preserve">
+    <value>Δεν βρέθηκε το αρχείο άδειας χρήσης</value>
+  </data>
+  <data name="LicenseHasExpired" xml:space="preserve">
+    <value>Η Άδεια έχει λήξει</value>
+  </data>
+  <data name="ReadHttpResponseFailed" xml:space="preserve">
+    <value>Απέτυχε η λήψη απόκρισης από το διακομιστή εγγραφής</value>
+  </data>
+  <data name="RegistrationFailed" xml:space="preserve">
+    <value>Η δήλωση απέτυχε</value>
+  </data>
+  <data name="RegistrationIsComplete" xml:space="preserve">
+    <value>Η εγγραφή είναι πλήρης</value>
+  </data>
+  <data name="ThankYouForRegistering" xml:space="preserve">
+    <value>Σας ευχαριστούμε για την εγγραφή σας</value>
+  </data>
+  <data name="ThisMachineIsNotRegistered" xml:space="preserve">
+    <value>Αυτό το μηχάνημα δεν έχει καταχωρηθεί για αυτήν τη συνδρομή</value>
+  </data>
+  <data name="AnErrorOccured" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα</value>
+  </data>
+  <data name="Completed_U" xml:space="preserve">
+    <value>Ολοκληρώθηκε</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Ποιότητα</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>Γίνεται έλεγχος...</value>
+  </data>
+  <data name="ReadyForDownload" xml:space="preserve">
+    <value>Έτοιμο για λήψη</value>
+  </data>
+  <data name="Enqueued" xml:space="preserve">
+    <value>Βρίσκεται σε ουρά αναμονής</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Απέτυχε</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Έγινε παύση</value>
+  </data>
+  <data name="Playlist" xml:space="preserve">
+    <value>Λίστα αναπαραγωγής</value>
+  </data>
+  <data name="Converted" xml:space="preserve">
+    <value>Μετατροπή</value>
+  </data>
+  <data name="ConnectionError" xml:space="preserve">
+    <value>Σφάλμα σύνδεσης</value>
+  </data>
+  <data name="UnsupportedFileFormat" xml:space="preserve">
+    <value>Μορφή αρχείου που δεν υποστηρίζεται</value>
+  </data>
+  <data name="VideoFileSizeExceedsLimits" xml:space="preserve">
+    <value>Το μέγεθος της διάρκειας του αρχείου ή βίντεο υπερβαίνει το επιτρεπόμενα όρια</value>
+  </data>
+  <data name="FailedToGetResponseFromServer" xml:space="preserve">
+    <value>Απέτυχε η λήψη απόκρισης από το διακομιστή εγγραφής</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Καταχώριση</value>
+  </data>
+  <data name="WrongSubscriptionKey" xml:space="preserve">
+    <value>Λανθασμένο κλειδί εγγραφής, παρακαλώ δοκιμάστε ξανά</value>
+  </data>
+  <data name="OriginalYoutube" xml:space="preserve">
+    <value>Original YouTube</value>
+  </data>
+  <data name="CopyItToClipboard" xml:space="preserve">
+    <value>Αντιγραφή στο Πρόχειρο;</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Μεταβείτε στο {0}</value>
+  </data>
+  <data name="ShowSubscriptionRequestCode" xml:space="preserve">
+    <value>Εμφάνιση κώδικα αίτησης εγγραφής</value>
+  </data>
+  <data name="SubscriptionRequestCode" xml:space="preserve">
+    <value>Ο κωδικός της αίτησης εγγραφής είναι:</value>
+  </data>
+  <data name="GetRocketSubsctiption" xml:space="preserve">
+    <value>Πάρτε Συνδρομή Πυραύλου</value>
+  </data>
+  <data name="NewVersionIsAvailable" xml:space="preserve">
+    <value>Νέα έκδοση είναι διαθέσιμη</value>
+  </data>
+  <data name="AudioQuality" xml:space="preserve">
+    <value>Ποιότητα</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>Προκαθορισμένη ρύθμιση</value>
+  </data>
+  <data name="CreateDVD" xml:space="preserve">
+    <value>Δημιουργία DVD</value>
+  </data>
+  <data name="OccupiedSpace" xml:space="preserve">
+    <value>Κατεχόμενος χώρος:</value>
+  </data>
+  <data name="OoopsNoFiles" xml:space="preserve">
+    <value>Ωχ, δεν έχετε προσθέσει κανένα αρχείο</value>
+  </data>
+  <data name="OpenInExternalPlayer" xml:space="preserve">
+    <value>Άνοιγμα στο εξωτερικό Player</value>
+  </data>
+  <data name="CodecPackDownloadedAndReady" xml:space="preserve">
+    <value>Η εγκατάσταση του πακέτου κωδικοποιητών έχει ληφθεί και είναι έτοιμη για εγκατάσταση. Όλα τα DVDVideoSoft προγράμματα θα κλείσουν αυτόματα.</value>
+  </data>
+  <data name="EnterVerificationCodeAndRestart" xml:space="preserve">
+    <value>Εισαγάγετε τον κωδικό επαλήθευσης στο πρόγραμμα περιήγησής σας και ξεκινήστε πάλι το πρόγραμμα. Θέλετ να ανοίξετε το πρόγραμμα περιήγησης τώρα;</value>
+  </data>
+  <data name="DVDVideoCreation" xml:space="preserve">
+    <value>Δημιουργία DVD βίντεο...</value>
+  </data>
+  <data name="NetFx35Install" xml:space="preserve">
+    <value>Η εφαρμογή απαιτεί Microsoft.NET Framework 3.5. Θέλετε να την εγκαταστήσετε τώρα;</value>
+  </data>
+  <data name="TotalDuration" xml:space="preserve">
+    <value>Συνολική Διάρκεια</value>
+  </data>
+  <data name="Subtitles" xml:space="preserve">
+    <value>Υπότιτλοι</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Τίτλος</value>
+  </data>
+  <data name="ShutDownWarning" xml:space="preserve">
+    <value>Ο υπολογιστής σας θα τερματιστεί σε {0} sec</value>
+  </data>
+  <data name="OriginalVideoName" xml:space="preserve">
+    <value>Original_Video_Name</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Πρόοδος</value>
+  </data>
+  <data name="PlayDownloadedAudioFile" xml:space="preserve">
+    <value>Αναπαραγωγή του κατεβασμένου αρχείου ήχου</value>
+  </data>
+  <data name="PlayDownloadedVideo" xml:space="preserve">
+    <value>Αναπαραγωγή κατεβασμένου βίντεο</value>
+  </data>
+  <data name="NotEnoughSpace" xml:space="preserve">
+    <value>Δεν υπάρχει αρκετός χώρος στο δίσκο</value>
+  </data>
+  <data name="RequiresImapi" xml:space="preserve">
+    <value>Αυτή η εγκατάσταση απαιτεί Microsoft Image Mastering API (IMAPI). Παρακαλούμε κάντε λήψη και εγκαταστήστε το, μετά εκτελέστε ξανά το πρόγραμμα εγκατάστασης. Θέλετε να κάνετε λήψη του IMAPI τώρα;</value>
+  </data>
+  <data name="CannotSaveVideo" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αποθήκευση βίντεο για το αρχείο:</value>
+  </data>
+  <data name="EstimatedDvdSize" xml:space="preserve">
+    <value>Εκτιμώμενο μέγεθος dvd εξόδου (+/-10%)</value>
+  </data>
+  <data name="ShowInFolder" xml:space="preserve">
+    <value>Εμφάνιση στο φάκελο</value>
+  </data>
+  <data name="CannotConnectToTheServer" xml:space="preserve">
+    <value>Δεν είναι δυνατό η σύνδεση με το διακομιστή</value>
+  </data>
+  <data name="CannotDownloadTheCodecPack" xml:space="preserve">
+    <value>Δεν είναι δυνατό να κάνετε λήψη του πακέτου κωδικοποιητή</value>
+  </data>
+  <data name="SomeCodecsAreMissing" xml:space="preserve">
+    <value>Ορισμένοι κωδικοποιητές λείπουν</value>
+  </data>
+  <data name="CheckPresetParameters" xml:space="preserve">
+    <value>Ελέγξτε την προκαθορισμένη ρύθμιση παραμέτρων</value>
+  </data>
+  <data name="UnsupportedCodec" xml:space="preserve">
+    <value>Κωδικοποιητής που δεν υποστηρίζεται</value>
+  </data>
+  <data name="AboveNormalPriority" xml:space="preserve">
+    <value>Περισσότερο από κανονική</value>
+  </data>
+  <data name="BelowNormalPriority" xml:space="preserve">
+    <value>Κάτω από το κανονικό</value>
+  </data>
+  <data name="HighPriority" xml:space="preserve">
+    <value>Υψηλή προτεραιότητα</value>
+  </data>
+  <data name="LowPriority" xml:space="preserve">
+    <value>Χαμηλή προτεραιότητα</value>
+  </data>
+  <data name="NormalPriority" xml:space="preserve">
+    <value>Κανονική προτεραιότητα</value>
+  </data>
+  <data name="RocketSubscriptionFeaturesAreActivated" xml:space="preserve">
+    <value>Οι δυνατότητες συνδρομής πυραύλου είναι ενεργοποιημένες</value>
+  </data>
+  <data name="SetupInProgress" xml:space="preserve">
+    <value>Εγκατάστασης σε εξέλιξη, παρακαλώ περιμένετε...</value>
+  </data>
+  <data name="FilesNotFound" xml:space="preserve">
+    <value>Δεν είναι δυνατό να εντοπιστεί κανένα αρχείο από τη λίστα CUE</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>και</value>
+  </data>
+  <data name="SameAsInput" xml:space="preserve">
+    <value>Ίδιο με την είσοδο</value>
+  </data>
+  <data name="AccelerateVideoEncodingWithFmtString" xml:space="preserve">
+    <value>Επιτάχυνση της κωδικοποίησης βίντεο με τεχνολογία {0}</value>
+  </data>
+  <data name="SaveVideo" xml:space="preserve">
+    <value>Αποθήκευση βίντεο</value>
+  </data>
+  <data name="CantFindTags" xml:space="preserve">
+    <value>Δεν μπορούμε να εντοπίσουμε τυχόν ετικέτες για αυτό το αρχείο</value>
+  </data>
+  <data name="DontAskAgain" xml:space="preserve">
+    <value>Μην ξαναρωτήσεις</value>
+  </data>
+  <data name="ClipboardIsInUse" xml:space="preserve">
+    <value>Το Πρόχειρο χρησιμοποιείται από άλλη διεργασία, παρακαλούμε δοκιμάστε αργότερα.</value>
+  </data>
+  <data name="ReportHasBeenGenerated" xml:space="preserve">
+    <value>Η αναφορά έχει δημιουργηθεί με επιτυχία.\nΆνοιγμα του φακέλου με τα αρχειοθετημένα logs τώρα;</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Δημιουργία Αναφοράς</value>
+  </data>
+  <data name="OpenLogFolder" xml:space="preserve">
+    <value>Άνοιγμα φακέλου καταγραφής</value>
+  </data>
+  <data name="AllDvsProgramsMustBeClosed" xml:space="preserve">
+    <value>Όλα τα προγράμματα πρέπει να κλείσουν πριν δημιουργηθεί η αναφορά.\nΚλείσιμο του {0} τώρα και δημιουργία της αναφοράς;</value>
+  </data>
+  <data name="JustSendTheLogs_template" xml:space="preserve">
+    <value>Παρακαλώ στείλτε το αρχείο "{0}"\nto στην ομάδα υποστήριξης DVDVideoSoft</value>
+  </data>
+  <data name="TheLoggingLevelWillBeSetToTrace" xml:space="preserve">
+    <value>Το επίπεδο καταγραφής θα πρέπει να οριστεί σε TRACE. Θέλετε να συνεχίσετε?</value>
+  </data>
+  <data name="OriginalQualityDescription" xml:space="preserve">
+    <value>Ρυθμός μετάδοσης bit,κανάλια όπως στο Αρχείο Εισόδου</value>
+  </data>
+  <data name="ManualProxy" xml:space="preserve">
+    <value>Χειροκίνητη ρύθμιση διαμεσολαβητή</value>
+  </data>
+  <data name="NoProxy" xml:space="preserve">
+    <value>Χωρίς διαμεσολαβητή</value>
+  </data>
+  <data name="SystemProxy" xml:space="preserve">
+    <value>Χρήση ρυθμίσεων διαμεσολαβητή συστήματος</value>
+  </data>
+  <data name="DirectoryNotWritable" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αποθήκευση του αρχείου στο φάκελο εξόδου. Παρακαλώ επιλέξτε ένα άλλο προορισμό.</value>
+  </data>
+  <data name="AVGIsRunningWarning" xml:space="preserve">
+    <value>Το AVG Accelerator τρέχει στον υπολογιστή σας. Μερικές φορές παγώνει η σύνδεση στο Internet.\n\nΤα εργαλεία της DVDVideoSoft χρησιμοποιούν τη δική τους επιτάχυνση και δεν χρειάζεται το AVG Accelerator. Σας προτείνουμε να το απενεργοποιήσετε.\n\nΔιαβάστε πώς να απενεργοποιήσετε το AVG Accelerator εδώ:</value>
+  </data>
+  <data name="TheFieldCannotBeBlank" xml:space="preserve">
+    <value>Το πεδίο αυτό δεν πρέπει να είναι άδειο</value>
+  </data>
+  <data name="ConvertWith" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AddProgrammToContextMenuWindows" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CreateM3Uplaylist" xml:space="preserve">
+    <value></value>
+  </data>
+</root>
